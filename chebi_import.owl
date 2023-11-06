@@ -1,0 +1,1291 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://ontofox.hegroup.org/fnvtcig4.owl#"
+     xml:base="http://ontofox.hegroup.org/fnvtcig4.owl"
+     xmlns:obo="http://purl.obolibrary.org/obo/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:chebi="http://purl.obolibrary.org/obo/chebi/"
+     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
+    <owl:Ontology rdf:about="http://ontofox.hegroup.org/chebi.owl"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000115 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115">
+        <rdfs:label>definition</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000412 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000412">
+        <rdfs:label xml:lang="en">imported from</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/chebi/charge -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/chebi/charge"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/chebi/formula -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/chebi/formula"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/chebi/inchi -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/chebi/inchi"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/chebi/inchikey -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/chebi/inchikey"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/chebi/mass -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/chebi/mass"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/chebi/monoisotopicmass -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/chebi/monoisotopicmass"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/chebi/smiles -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/chebi/smiles"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasAlternativeId -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasAlternativeId">
+        <rdfs:label>has_alternative_id</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasDbXref -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasDbXref">
+        <rdfs:label>database_cross_reference</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasExactSynonym -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym">
+        <rdfs:label>has_exact_synonym</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasOBONamespace -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasOBONamespace">
+        <rdfs:label>has_obo_namespace</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym">
+        <rdfs:label>has_related_synonym</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#id -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#id"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#inSubset -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#inSubset">
+        <rdfs:label>in_subset</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.w3.org/2000/01/rdf-schema#label -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#label"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000136 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000136"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0000087 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0000087"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_15356 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_15356">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_26167"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_26834"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33704"/>
+        <obo:IAO_0000115>A sulfur-containing amino acid that is propanoic acid with an amino group at position 2 and a sulfanyl group at position 3.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+        <chebi:charge>0</chebi:charge>
+        <chebi:formula>C3H7NO2S</chebi:formula>
+        <chebi:inchi>InChI=1S/C3H7NO2S/c4-2(1-7)3(5)6/h2,7H,1,4H2,(H,5,6)</chebi:inchi>
+        <chebi:inchikey>XUJNEKJLAYXESH-UHFFFAOYSA-N</chebi:inchikey>
+        <chebi:mass>121.15922</chebi:mass>
+        <chebi:monoisotopicmass>121.01975</chebi:monoisotopicmass>
+        <chebi:smiles>NC(CS)C(O)=O</chebi:smiles>
+        <oboInOwl:hasAlternativeId>CHEBI:14061</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasAlternativeId>CHEBI:23508</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasAlternativeId>CHEBI:4050</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasDbXref>Beilstein:1721406</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>CAS:3374-22-9</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Gmelin:2933</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>KEGG:C00736</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>KNApSAcK:C00001351</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>KNApSAcK:C00007323</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:17439666</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:25181601</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Reaxys:1721406</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Wikipedia:Cysteine</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>Cysteine</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>cysteine</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>chebi_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym>2-Amino-3-mercaptopropionic acid</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>2-amino-3-mercaptopropanoic acid</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>2-amino-3-sulfanylpropanoic acid</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>C</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>Cys</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>Cystein</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>Hcys</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>Zystein</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>cisteina</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:id>CHEBI:15356</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/chebi#3_STAR"/>
+        <rdfs:label>cysteine</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_15377 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_15377">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33693"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_37176"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_52625"/>
+        <obo:IAO_0000115>An oxygen hydride consisting of an oxygen atom that is covalently bonded to two hydrogen atoms</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+        <chebi:charge>0</chebi:charge>
+        <chebi:formula>H2O</chebi:formula>
+        <chebi:inchi>InChI=1S/H2O/h1H2</chebi:inchi>
+        <chebi:inchikey>XLYOFNOQVPJJNP-UHFFFAOYSA-N</chebi:inchikey>
+        <chebi:mass>18.01530</chebi:mass>
+        <chebi:monoisotopicmass>18.01056</chebi:monoisotopicmass>
+        <chebi:smiles>[H]O[H]</chebi:smiles>
+        <oboInOwl:hasAlternativeId>CHEBI:10743</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasAlternativeId>CHEBI:13352</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasAlternativeId>CHEBI:27313</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasAlternativeId>CHEBI:42043</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasAlternativeId>CHEBI:42857</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasAlternativeId>CHEBI:43228</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasAlternativeId>CHEBI:44292</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasAlternativeId>CHEBI:44701</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasAlternativeId>CHEBI:44819</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasAlternativeId>CHEBI:5585</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasDbXref>Beilstein:3587155</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>CAS:7732-18-5</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Gmelin:117</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>HMDB:HMDB0002111</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>KEGG:C00001</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>KEGG:D00001</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MetaCyc:WATER</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MolBase:1</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PDBeChem:HOH</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Reaxys:3587155</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Wikipedia:Water</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>WATER</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Water</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>oxidane</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>water</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>chebi_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym>BOUND WATER</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>H2O</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>HOH</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>Wasser</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>[OH2]</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>acqua</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>agua</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>aqua</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>dihydridooxygen</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>dihydrogen oxide</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>eau</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>hydrogen hydroxide</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:id>CHEBI:15377</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/chebi#3_STAR"/>
+        <rdfs:label>water</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_23367 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_23367">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24431"/>
+        <obo:IAO_0000115>Any constitutionally or isotopically distinct atom, molecule, ion, ion pair, radical, radical ion, complex, conformer etc., identifiable as a separately distinguishable entity.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+        <oboInOwl:hasExactSynonym>molecular entity</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>chebi_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym>entidad molecular</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>entidades moleculares</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>entite moleculaire</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>molecular entities</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>molekulare Entitaet</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:id>CHEBI:23367</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/chebi#3_STAR"/>
+        <rdfs:label>molecular entity</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_24061 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_24061">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24473"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+        <chebi:charge>0</chebi:charge>
+        <chebi:formula>F</chebi:formula>
+        <chebi:inchi>InChI=1S/F</chebi:inchi>
+        <chebi:inchikey>YCKRFDGAMUMZLT-UHFFFAOYSA-N</chebi:inchikey>
+        <chebi:mass>18.99840</chebi:mass>
+        <chebi:monoisotopicmass>18.99840</chebi:monoisotopicmass>
+        <chebi:smiles>[F]</chebi:smiles>
+        <oboInOwl:hasDbXref>CAS:7782-41-4</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>WebElements:F</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>fluorine</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>chebi_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym>9F</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>F</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>Fluor</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>fluor</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>fluorine</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>fluorum</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:id>CHEBI:24061</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/chebi#3_STAR"/>
+        <rdfs:label>fluorine atom</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_24431 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_24431">
+        <obo:IAO_0000115>A chemical entity is a physical entity of interest in chemistry including molecular entities, parts thereof, and chemical substances.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+        <oboInOwl:hasExactSynonym>chemical entity</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>chebi_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>CHEBI:24431</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/chebi#3_STAR"/>
+        <rdfs:label>chemical entity</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_24436 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_24436">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_35352"/>
+        <obo:IAO_0000115>Any organonitrogen compound containing a carbamimidamido (guanidino) group. Guanidines have the general structure (R(1)R(2)N)(R(3)R(4)N)C=N-R(5) and are related structurally to amidines and ureas.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+        <oboInOwl:hasOBONamespace>chebi_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>CHEBI:24436</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/chebi#3_STAR"/>
+        <rdfs:label>guanidines</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_24473 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_24473">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_25585"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33560"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+        <oboInOwl:hasExactSynonym>halogen</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>halogens</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>chebi_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym>Halogene</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>group 17 elements</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>group VII elements</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>halogene</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>halogenes</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>halogeno</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>halogenos</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:id>CHEBI:24473</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/chebi#3_STAR"/>
+        <rdfs:label>halogen</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_24651 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_24651">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_25806"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33608"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_37577"/>
+        <obo:IAO_0000115>Hydroxides are chemical compounds containing a hydroxy group or salts containing hydroxide (OH(-)).</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+        <oboInOwl:hasOBONamespace>chebi_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>CHEBI:24651</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/chebi#3_STAR"/>
+        <rdfs:label>hydroxides</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_24833 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_24833">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24651"/>
+        <obo:IAO_0000115>A compound which contains oxygen, at least one other element, and at least one hydrogen bound to oxygen, and which produces a conjugate base by loss of positive hydrogen ion(s) (hydrons).</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+        <oboInOwl:hasExactSynonym>oxoacid</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>oxoacids</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>chebi_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym>oxacids</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>oxiacids</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>oxo acid</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>oxy-acids</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>oxyacids</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:id>CHEBI:24833</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/chebi#3_STAR"/>
+        <rdfs:label>oxoacid</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_24835 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_24835">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23367"/>
+        <obo:IAO_0000115>A molecular entity that contains no carbon.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+        <oboInOwl:hasOBONamespace>chebi_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym>anorganische Verbindungen</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>inorganic compounds</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>inorganic entity</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>inorganic molecular entities</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>inorganics</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:id>CHEBI:24835</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/chebi#3_STAR"/>
+        <rdfs:label>inorganic molecular entity</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_25367 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_25367">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_36357"/>
+        <obo:IAO_0000115>Any polyatomic entity that is an electrically neutral entity consisting of more than one atom.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+        <oboInOwl:hasExactSynonym>molecule</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>chebi_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym>Molekuel</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>molecula</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>molecules</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>neutral molecular compounds</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:id>CHEBI:25367</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/chebi#3_STAR"/>
+        <rdfs:label>molecule</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_25585 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_25585">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33250"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+        <oboInOwl:hasExactSynonym>nonmetal</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>chebi_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym>Nichtmetall</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>Nichtmetalle</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>no metal</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>no metales</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>non-metal</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>non-metaux</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>nonmetal</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>nonmetals</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:id>CHEBI:25585</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/chebi#3_STAR"/>
+        <rdfs:label>nonmetal atom</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_25806 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_25806">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33304"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+        <oboInOwl:hasExactSynonym>oxygen molecular entity</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>chebi_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym>oxygen molecular entities</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:id>CHEBI:25806</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/chebi#3_STAR"/>
+        <rdfs:label>oxygen molecular entity</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_26167 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_26167">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33709"/>
+        <obo:IAO_0000115>Any amino acid whose side chain is capable of forming one or more hydrogen bonds.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+        <chebi:charge>0</chebi:charge>
+        <chebi:formula>C2H4NO2R</chebi:formula>
+        <chebi:mass>74.059</chebi:mass>
+        <chebi:monoisotopicmass>74.02420</chebi:monoisotopicmass>
+        <chebi:smiles>OC(C(*)N)=O</chebi:smiles>
+        <oboInOwl:hasAlternativeId>CHEBI:8283</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasDbXref>MetaCyc:Polar-amino-acids</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:12016058</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>polar amino acid</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>chebi_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym>polar amino acids</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>polar amino-acid</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>polar amino-acids</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:id>CHEBI:26167</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/chebi#3_STAR"/>
+        <rdfs:label>polar amino acid</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_26834 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_26834">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33576"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33709"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+        <oboInOwl:hasOBONamespace>chebi_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym>sulfur-containing amino acids</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:id>CHEBI:26834</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/chebi#3_STAR"/>
+        <rdfs:label>sulfur-containing amino acid</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_26835 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_26835">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33304"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+        <oboInOwl:hasExactSynonym>sulfur molecular entity</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>chebi_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym>sulfur molecular entities</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:id>CHEBI:26835</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/chebi#3_STAR"/>
+        <rdfs:label>sulfur molecular entity</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_29016 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_29016">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24436"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_26167"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33704"/>
+        <obo:IAO_0000115>An alpha-amino acid that is glycine in which the alpha-is substituted by a 3-guanidinopropyl group.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+        <chebi:charge>0</chebi:charge>
+        <chebi:formula>C6H14N4O2</chebi:formula>
+        <chebi:inchi>InChI=1S/C6H14N4O2/c7-4(5(11)12)2-1-3-10-6(8)9/h4H,1-3,7H2,(H,11,12)(H4,8,9,10)</chebi:inchi>
+        <chebi:inchikey>ODKSFYDXXFIFQN-UHFFFAOYSA-N</chebi:inchikey>
+        <chebi:mass>174.20112</chebi:mass>
+        <chebi:monoisotopicmass>174.11168</chebi:monoisotopicmass>
+        <chebi:smiles>NC(CCCNC(N)=N)C(O)=O</chebi:smiles>
+        <oboInOwl:hasAlternativeId>CHEBI:22616</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasAlternativeId>CHEBI:2643</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasDbXref>Beilstein:1725411</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>CAS:7200-25-1</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>KEGG:C02385</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:10848923</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Reaxys:1725411</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Wikipedia:L-Arginine</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>Arginine</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>arginine</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>chebi_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym>2-Amino-5-guanidinovaleric acid</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>2-amino-5-(carbamimidamido)pentanoic acid</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>2-amino-5-guanidinopentanoic acid</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>Arginin</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>Harg</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:id>CHEBI:29016</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/chebi#3_STAR"/>
+        <rdfs:label>arginine</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_33242 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_33242">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24835"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33692"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+        <oboInOwl:hasOBONamespace>chebi_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym>inorganic hydrides</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:id>CHEBI:33242</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/chebi#3_STAR"/>
+        <rdfs:label>inorganic hydride</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_33250 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_33250">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24431"/>
+        <obo:IAO_0000115>A chemical entity constituting the smallest component of an element having the chemical properties of the element.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+        <oboInOwl:hasAlternativeId>CHEBI:22671</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasAlternativeId>CHEBI:23907</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasExactSynonym>atom</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>chebi_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym>atome</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>atomo</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>atoms</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>atomus</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>element</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>elements</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:id>CHEBI:33250</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/chebi#3_STAR"/>
+        <rdfs:label>atom</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_33261 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_33261">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_26835"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_36962"/>
+        <obo:IAO_0000115>An organosulfur compound is a compound containing at least one carbon-sulfur bond.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+        <oboInOwl:hasAlternativeId>CHEBI:23010</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasAlternativeId>CHEBI:25714</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasDbXref>Wikipedia:Organosulfur_compounds</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>organosulfur compound</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>chebi_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym>organosulfur compounds</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:id>CHEBI:33261</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/chebi#3_STAR"/>
+        <rdfs:label>organosulfur compound</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_33285 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_33285">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_50860"/>
+        <obo:IAO_0000115>A heteroorganic entity is an organic molecular entity in which carbon atoms or organic groups are bonded directly to one or more heteroatoms.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+        <oboInOwl:hasOBONamespace>chebi_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym>heteroorganic entities</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>organoelement compounds</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:id>CHEBI:33285</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/chebi#3_STAR"/>
+        <rdfs:label>heteroorganic entity</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_33302 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_33302">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33675"/>
+        <obo:IAO_0000115>A p-block molecular entity containing any pnictogen.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+        <oboInOwl:hasExactSynonym>pnictogen molecular entity</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>chebi_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym>pnictogen molecular entities</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:id>CHEBI:33302</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/chebi#3_STAR"/>
+        <rdfs:label>pnictogen molecular entity</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_33304 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_33304">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33675"/>
+        <obo:IAO_0000115>Any p-block molecular entity containing a chalcogen.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+        <oboInOwl:hasExactSynonym>chalcogen molecular entity</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>chebi_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym>chalcogen compounds</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>chalcogen molecular entities</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:id>CHEBI:33304</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/chebi#3_STAR"/>
+        <rdfs:label>chalcogen molecular entity</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_33318 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_33318">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33250"/>
+        <obo:IAO_0000115>An atom belonging to one of the main groups (found in the s- and p- blocks) of the periodic table.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+        <oboInOwl:hasExactSynonym>main group elements</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>chebi_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym>Hauptgruppenelement</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>Hauptgruppenelemente</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>main group element</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:id>CHEBI:33318</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/chebi#3_STAR"/>
+        <rdfs:label>main group element atom</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_33560 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_33560">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33318"/>
+        <obo:IAO_0000115>Any main group element atom belonging to the p-block of the periodic table.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+        <oboInOwl:hasOBONamespace>chebi_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym>p-block element</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>p-block elements</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:id>CHEBI:33560</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/chebi#3_STAR"/>
+        <rdfs:label>p-block element atom</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_33575 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_33575">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_35605"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_36586"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_64709"/>
+        <obo:IAO_0000115>A carbon oxoacid acid carrying at least one -C(=O)OH group and having the structure RC(=O)OH, where R is any any monovalent functional group. Carboxylic acids are the most common type of organic acid.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+        <chebi:charge>0</chebi:charge>
+        <chebi:formula>CHO2R</chebi:formula>
+        <chebi:mass>45.01740</chebi:mass>
+        <chebi:monoisotopicmass>44.99765</chebi:monoisotopicmass>
+        <chebi:smiles>OC([*])=O</chebi:smiles>
+        <oboInOwl:hasAlternativeId>CHEBI:13428</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasAlternativeId>CHEBI:13627</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasAlternativeId>CHEBI:23027</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasDbXref>PMID:17147560</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:18433345</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Wikipedia:Carboxylic_acid</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>carboxylic acid</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>carboxylic acids</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>chebi_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym>Carbonsaeure</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>Carbonsaeuren</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>Karbonsaeure</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>RC(=O)OH</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>acide carboxylique</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>acides carboxyliques</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>acido carboxilico</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>acidos carboxilicos</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:id>CHEBI:33575</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/chebi#3_STAR"/>
+        <rdfs:label>carboxylic acid</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_33576 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_33576">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33261"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33575"/>
+        <obo:IAO_0000115>Any carboxylic acid having a sulfur substituent.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+        <oboInOwl:hasOBONamespace>chebi_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym>S-containing carboxylic acid</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>S-containing carboxylic acids</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>sulfur-containing carboxylic acids</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:id>CHEBI:33576</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/chebi#3_STAR"/>
+        <rdfs:label>sulfur-containing carboxylic acid</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_33579 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_33579">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23367"/>
+        <obo:IAO_0000115>A molecular entity containing one or more atoms from any of groups 1, 2, 13, 14, 15, 16, 17, and 18 of the periodic table.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+        <oboInOwl:hasOBONamespace>chebi_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym>main group compounds</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>main group molecular entities</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:id>CHEBI:33579</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/chebi#3_STAR"/>
+        <rdfs:label>main group molecular entity</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_33582 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_33582">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33675"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+        <oboInOwl:hasExactSynonym>carbon group molecular entity</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>chebi_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym>carbon group molecular entities</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:id>CHEBI:33582</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/chebi#3_STAR"/>
+        <rdfs:label>carbon group molecular entity</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_33608 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_33608">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33674"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+        <oboInOwl:hasOBONamespace>chebi_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym>hydrogen compounds</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>hydrogen molecular entities</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:id>CHEBI:33608</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/chebi#3_STAR"/>
+        <rdfs:label>hydrogen molecular entity</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_33674 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_33674">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33579"/>
+        <obo:IAO_0000115>An s-block molecular entity is a molecular entity containing one or more atoms of an s-block element.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+        <oboInOwl:hasExactSynonym>s-block molecular entity</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>chebi_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym>s-block compounds</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>s-block molecular entities</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:id>CHEBI:33674</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/chebi#3_STAR"/>
+        <rdfs:label>s-block molecular entity</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_33675 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_33675">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33579"/>
+        <obo:IAO_0000115>A main group molecular entity that contains one or more atoms of a p-block element.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+        <oboInOwl:hasOBONamespace>chebi_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym>p-block compounds</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>p-block molecular entities</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>p-block molecular entitiy</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:id>CHEBI:33675</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/chebi#3_STAR"/>
+        <rdfs:label>p-block molecular entity</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_33692 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_33692">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33608"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_37577"/>
+        <obo:IAO_0000115>Hydrides are chemical compounds of hydrogen with other chemical elements.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+        <oboInOwl:hasOBONamespace>chebi_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>CHEBI:33692</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/chebi#3_STAR"/>
+        <rdfs:label>hydrides</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_33693 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_33693">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_36902"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+        <oboInOwl:hasExactSynonym>oxygen hydride</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>chebi_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym>hydrides of oxygen</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>oxygen hydrides</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:id>CHEBI:33693</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/chebi#3_STAR"/>
+        <rdfs:label>oxygen hydride</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_33704 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_33704">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33709"/>
+        <obo:IAO_0000115>An amino acid in which the amino group is located on the carbon atom at the position alpha to the carboxy group.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+        <chebi:charge>0</chebi:charge>
+        <chebi:formula>C2H4NO2R</chebi:formula>
+        <chebi:mass>74.05870</chebi:mass>
+        <chebi:monoisotopicmass>74.02420</chebi:monoisotopicmass>
+        <chebi:smiles>NC([*])C(O)=O</chebi:smiles>
+        <oboInOwl:hasAlternativeId>CHEBI:10208</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasAlternativeId>CHEBI:13779</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasAlternativeId>CHEBI:22442</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasAlternativeId>CHEBI:2642</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasDbXref>KEGG:C00045</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>KEGG:C05167</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>alpha-amino acid</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>chebi_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym>Amino acid</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>Amino acids</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>alpha-amino acids</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>alpha-amino carboxylic acids</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:id>CHEBI:33704</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/chebi#3_STAR"/>
+        <rdfs:label>alpha-amino acid</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_33709 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_33709">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33575"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_50047"/>
+        <obo:IAO_0000115>A carboxylic acid containing one or more amino groups.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+        <oboInOwl:hasAlternativeId>CHEBI:13815</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasAlternativeId>CHEBI:22477</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasDbXref>Wikipedia:Amino_acid</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace>chebi_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym>Aminocarbonsaeure</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>Aminokarbonsaeure</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>Aminosaeure</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>amino acids</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:id>CHEBI:33709</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/chebi#3_STAR"/>
+        <rdfs:label>amino acid</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_35352 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_35352">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33285"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_51143"/>
+        <obo:IAO_0000115>Any heteroorganic entity containing at least one carbon-nitrogen bond.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+        <oboInOwl:hasExactSynonym>organonitrogen compounds</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>chebi_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym>organonitrogens</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:id>CHEBI:35352</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/chebi#3_STAR"/>
+        <rdfs:label>organonitrogen compound</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_35605 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_35605">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24833"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_36963"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+        <oboInOwl:hasOBONamespace>chebi_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym>carbon oxoacids</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>oxoacids of carbon</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:id>CHEBI:35605</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/chebi#3_STAR"/>
+        <rdfs:label>carbon oxoacid</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_36357 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_36357">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23367"/>
+        <obo:IAO_0000115>Any molecular entity consisting of more than one atom.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+        <oboInOwl:hasOBONamespace>chebi_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym>polyatomic entities</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:id>CHEBI:36357</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/chebi#3_STAR"/>
+        <rdfs:label>polyatomic entity</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_36586 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_36586">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_36587"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_36963"/>
+        <obo:IAO_0000115>Any compound containing the carbonyl group, C=O. The term is commonly used in the restricted sense of aldehydes and ketones, although it actually includes carboxylic acids and derivatives.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+        <oboInOwl:hasExactSynonym>carbonyl compounds</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>chebi_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>CHEBI:36586</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/chebi#3_STAR"/>
+        <rdfs:label>carbonyl compound</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_36587 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_36587">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_72695"/>
+        <obo:IAO_0000115>Organic compounds containing an oxygen atom, =O, doubly bonded to carbon or another element.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+        <oboInOwl:hasExactSynonym>oxo compounds</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>chebi_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym>organic oxo compounds</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:id>CHEBI:36587</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/chebi#3_STAR"/>
+        <rdfs:label>organic oxo compound</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_36902 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_36902">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33242"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33304"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+        <oboInOwl:hasExactSynonym>chalcogen hydride</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>chebi_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym>chalcogen hydrides</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:id>CHEBI:36902</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/chebi#3_STAR"/>
+        <rdfs:label>chalcogen hydride</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_36939 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_36939">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24061"/>
+        <obo:IAO_0000115>The radioactive isotope of fluorine with relative atomic mass 18.000938. The longest-lived fluorine radionuclide with half-life of 109.77 min.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+        <chebi:charge>0</chebi:charge>
+        <chebi:formula>[18F]</chebi:formula>
+        <chebi:inchi>InChI=1S/F/i1-1</chebi:inchi>
+        <chebi:inchikey>YCKRFDGAMUMZLT-BJUDXGSMSA-N</chebi:inchikey>
+        <chebi:mass>18.001</chebi:mass>
+        <chebi:monoisotopicmass>18.00094</chebi:monoisotopicmass>
+        <chebi:smiles>[18F]</chebi:smiles>
+        <oboInOwl:hasDbXref>CAS:13981-56-1</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>DrugBank:DB13134</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Wikipedia:Fluorine-18</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>fluorine-18</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>chebi_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym>(18)9F</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>(18)F</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>fluorine, isotope of mass 18</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>fluorine-18</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:id>CHEBI:36939</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/chebi#3_STAR"/>
+        <rdfs:label>fluorine-18 atom</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_36962 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_36962">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33285"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33304"/>
+        <obo:IAO_0000115>An organochalcogen compound is a compound containing at least one carbon-chalcogen bond.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+        <oboInOwl:hasExactSynonym>organochalcogen compound</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>chebi_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym>organochalcogen compounds</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:id>CHEBI:36962</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/chebi#3_STAR"/>
+        <rdfs:label>organochalcogen compound</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_36963 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_36963">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_25806"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_36962"/>
+        <obo:IAO_0000115>An organochalcogen compound containing at least one carbon-oxygen bond.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+        <oboInOwl:hasDbXref>PMID:17586126</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>organooxygen compound</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>chebi_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym>organooxygen compounds</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:id>CHEBI:36963</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/chebi#3_STAR"/>
+        <rdfs:label>organooxygen compound</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_37176 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_37176">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33692"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+        <oboInOwl:hasExactSynonym>mononuclear parent hydrides</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>chebi_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym>mononuclear hydride</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>mononuclear hydrides</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:id>CHEBI:37176</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/chebi#3_STAR"/>
+        <rdfs:label>mononuclear parent hydride</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_37577 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_37577">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_36357"/>
+        <obo:IAO_0000115>A molecular entity consisting of two or more chemical elements.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+        <oboInOwl:hasOBONamespace>chebi_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym>chemical compound</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>heteroatomic molecular entities</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:id>CHEBI:37577</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/chebi#3_STAR"/>
+        <rdfs:label>heteroatomic molecular entity</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_50047 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_50047">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_35352"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_50860"/>
+        <obo:IAO_0000115>A compound formally derived from ammonia by replacing one, two or three hydrogen atoms by organyl groups.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+        <oboInOwl:hasOBONamespace>chebi_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym>organic amino compounds</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:id>CHEBI:50047</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/chebi#3_STAR"/>
+        <rdfs:label>organic amino compound</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_50860 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_50860">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33582"/>
+        <obo:IAO_0000115>Any molecular entity that contains carbon.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+        <oboInOwl:hasAlternativeId>CHEBI:25700</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasAlternativeId>CHEBI:33244</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasOBONamespace>chebi_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym>organic compounds</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>organic entity</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>organic molecular entities</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:id>CHEBI:50860</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/chebi#3_STAR"/>
+        <rdfs:label>organic molecular entity</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_51143 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_51143">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33302"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+        <oboInOwl:hasAlternativeId>CHEBI:25556</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasAlternativeId>CHEBI:7594</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasDbXref>KEGG:C06061</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace>chebi_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym>Nitrogenous compounds</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>nitrogen compounds</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>nitrogen molecular entities</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:id>CHEBI:51143</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/chebi#3_STAR"/>
+        <rdfs:label>nitrogen molecular entity</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_52625 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_52625">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24651"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24835"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+        <oboInOwl:hasOBONamespace>chebi_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym>inorganic hydroxides</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:id>CHEBI:52625</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/chebi#3_STAR"/>
+        <rdfs:label>inorganic hydroxy compound</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_64709 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_64709">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_50860"/>
+        <obo:IAO_0000115>Any organic molecular entity that is acidic and contains carbon in covalent linkage.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+        <oboInOwl:hasOBONamespace>chebi_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym>organic acids</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:id>CHEBI:64709</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/chebi#3_STAR"/>
+        <rdfs:label>organic acid</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_72695 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_72695">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_25367"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_50860"/>
+        <obo:IAO_0000115>Any molecule that consists of at least one carbon atom as part of the electrically neutral entity.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+        <oboInOwl:hasOBONamespace>chebi_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym>organic compound</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>organic compounds</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>organic molecules</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:id>CHEBI:72695</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/chebi#3_STAR"/>
+        <rdfs:label>organic molecule</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000414 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0000414"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0100026 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0100026"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OMRSE_00000011 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OMRSE_00000011"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ontologies/2021/9/ADNI_Ontology#ADNI_0000000031 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ontologies/2021/9/ADNI_Ontology#ADNI_0000000031">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000414"/>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0100026"/>
+                            </owl:Restriction>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000087"/>
+                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OMRSE_00000011"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.26.2023-07-17T20:34:13Z) https://github.com/owlcs/owlapi -->
+
