@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rdf:RDF xmlns="http://ontofox.hegroup.org/o0buorpz.owl#" xml:base="http://ontofox.hegroup.org/o0buorpz.owl" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:obo="http://purl.obolibrary.org/obo/">
-    <owl:Ontology rdf:about="http://ontofox.hegroup.org/o0buorpz.owl"/>
+<rdf:RDF xmlns="http://ontofox.hegroup.org/kuciog87.owl#" xml:base="http://ontofox.hegroup.org/kuciog87.owl" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:obo="http://purl.obolibrary.org/obo/">
+    <owl:Ontology rdf:about="http://ontofox.hegroup.org/kuciog87.owl"/>
     
 
 
@@ -945,6 +945,24 @@ In the examples above, a reagent is an operational component of a device, but th
         <obo:IAO_0000118>instrument</obo:IAO_0000118>
         <obo:IAO_0000112>An autoclave is a device that sterlizes instruments or contaminated waste by applying high temperature and pressure.</obo:IAO_0000112>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0000970 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0000970">
+        <rdfs:label>scalar score from composite inputs</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000032"/>
+        <obo:IAO_0000115 xml:lang="en">A measurement datum which is the result of combining multiple datum. For example, a mean or summary score.</obo:IAO_0000115>
+        <obo:IAO_0000111>scalar score from composite inputs</obo:IAO_0000111>
+        <obo:IAO_0000118>questionaire score</obo:IAO_0000118>
+        <obo:IAO_0000116 xml:lang="en">JT:  We included this because we wanted to talk about an output from a questionnaire that summarized the answers to the questionnaire, but which was not actually the answer to any single question.</obo:IAO_0000116>
+        <obo:IAO_0000232 xml:lang="en">JZ: can we defined it logically as the output of some data transformation, like aggragate data transformation?</obo:IAO_0000232>
+        <obo:IAO_0000119 xml:lang="en">Person: Jessica Turner</obo:IAO_0000119>
+        <obo:IAO_0000117 xml:lang="en">Person: Jessica Turner</obo:IAO_0000117>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000120"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
     </owl:Class>
     
