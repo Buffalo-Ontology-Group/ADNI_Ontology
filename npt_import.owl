@@ -1,0 +1,9 @@
+  <!-- http://purl.obolibrary.org/obo/NPT_0011006 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NPT_0011006">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000970"/>
+        <obo:IAO_0000115 xml:lang="en">A scalar score from composite inputs used to record the specified output of a cognitive functioning assay.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Alexander P. Cox</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">cognitive functioning scalar score from composite inputs</rdfs:label>
+    </owl:Class>
+    
