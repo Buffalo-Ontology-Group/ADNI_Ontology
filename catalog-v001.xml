@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
+    <group id="Folder Repository, directory=, recursive=true, Auto-Update=true, version=2" prefer="public" xml:base="">
+        <uri id="Automatically generated entry, Timestamp=1701466185867" name="http://ontofox.hegroup.org/49xvayrj.owl" uri="uberon_import.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1701466185867" name="http://ontofox.hegroup.org/4z9f09bi.owl" uri="ogg_import.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1701466185867" name="http://ontofox.hegroup.org/acu59jh0.owl" uri="cl_import.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1701466185867" name="http://ontofox.hegroup.org/e4qgqcwb.owl" uri="obib_import.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1701466185867" name="http://ontofox.hegroup.org/fnvtcig4.owl" uri="chebi_import.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1701466185867" name="http://ontofox.hegroup.org/j9niy8q3.owl" uri="iao_import.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1701466185867" name="http://ontofox.hegroup.org/kuciog87.owl" uri="obi_import.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1701466185867" name="http://ontofox.hegroup.org/n42vjg68.owl" uri="geno_import.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1701466185867" name="http://ontofox.hegroup.org/q9v7mcw0.owl" uri="chmo_import.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1701466185867" name="http://ontofox.hegroup.org/qexmpjc6.owl" uri="go_import.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1701466185867" name="http://ontofox.hegroup.org/qwem5tzf.owl" uri="efo_import.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1701466185867" name="http://ontofox.hegroup.org/xex6a2pg.owl" uri="ro_import.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1701466185867" name="http://ontofox.hegroup.org/ybcd7k0r.owl" uri="ogms_import.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1701466185867" name="http://ontofox.hegroup.org/z8i39n4c.owl" uri="omrse_import.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1701466185867" name="http://ontofox.hegroup.org/zn9nkq2x.owl" uri="pato_import.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1701466185867" name="http://purl.obolibrary.org/obo/your_ontology/external/pro_test_10.27" uri="pro_import.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1701466185867" name="http://www.semanticweb.org/lmwis/ontologies/2023/10/ADNI_Ontology_v1" uri="ADNI_Ontology.owl"/>
+    </group>
+</catalog>

@@ -602,6 +602,9 @@
         <Class IRI="#ADNI_00000148"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#ADNI_00000155"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#ADNI_000002"/>
     </Declaration>
     <Declaration>
@@ -834,6 +837,21 @@
     </Declaration>
     <Declaration>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000017"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/IAO_0000414"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000023"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/OBI_0000011"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/UBERON_0006314"/>
     </Declaration>
     <EquivalentClasses>
         <Class IRI="#ADNI_000001"/>
@@ -1484,6 +1502,10 @@
     <SubClassOf>
         <Class IRI="#ADNI_00000148"/>
         <Class IRI="#ADNI_00000128"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ADNI_00000155"/>
+        <Class IRI="http://purl.obolibrary.org/obo/NPT_0011006"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#ADNI_000002"/>
@@ -2805,6 +2827,11 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#ADNI_00000148</IRI>
         <Literal xml:lang="en">Cognitive Change Index memory datum</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#ADNI_00000155</IRI>
+        <Literal xml:lang="en">test</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
