@@ -461,6 +461,150 @@
         <Class IRI="#ADNI_00000100"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#ADNI_00000101"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ADNI_00000102"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ADNI_00000103"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ADNI_00000104"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ADNI_00000105"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ADNI_00000106"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ADNI_00000107"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ADNI_00000108"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ADNI_00000109"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ADNI_00000110"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ADNI_00000111"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ADNI_00000112"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ADNI_00000113"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ADNI_00000114"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ADNI_00000116"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ADNI_00000117"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ADNI_00000118"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ADNI_00000119"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ADNI_00000120"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ADNI_00000121"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ADNI_00000122"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ADNI_00000123"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ADNI_00000124"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ADNI_00000125"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ADNI_00000126"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ADNI_00000127"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ADNI_00000128"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ADNI_00000129"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ADNI_00000130"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ADNI_00000131"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ADNI_00000132"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ADNI_00000133"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ADNI_00000134"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ADNI_00000135"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ADNI_00000136"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ADNI_00000137"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ADNI_00000138"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ADNI_00000139"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ADNI_00000140"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ADNI_00000141"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ADNI_00000142"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ADNI_00000143"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ADNI_00000144"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ADNI_00000145"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ADNI_00000146"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ADNI_00000147"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ADNI_00000148"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ADNI_00000155"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#ADNI_000002"/>
     </Declaration>
     <Declaration>
@@ -702,6 +846,21 @@
     </Declaration>
     <Declaration>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000017"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/IAO_0000414"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000023"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/OBI_0000011"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/UBERON_0006314"/>
     </Declaration>
     <EquivalentClasses>
         <Class IRI="#ADNI_000001"/>
@@ -1178,6 +1337,198 @@
     <SubClassOf>
         <Class IRI="#ADNI_00000100"/>
         <Class IRI="#ADNI_00000099"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ADNI_00000101"/>
+        <Class IRI="#ADNI_00000085"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ADNI_00000102"/>
+        <Class IRI="#ADNI_00000101"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ADNI_00000103"/>
+        <Class IRI="#ADNI_00000101"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ADNI_00000104"/>
+        <Class IRI="#ADNI_00000101"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ADNI_00000105"/>
+        <Class IRI="#ADNI_00000101"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ADNI_00000106"/>
+        <Class IRI="#ADNI_00000101"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ADNI_00000107"/>
+        <Class IRI="#ADNI_00000101"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ADNI_00000108"/>
+        <Class IRI="#ADNI_00000101"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ADNI_00000109"/>
+        <Class IRI="#ADNI_00000101"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ADNI_00000110"/>
+        <Class IRI="#ADNI_00000101"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ADNI_00000111"/>
+        <Class IRI="#ADNI_00000101"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ADNI_00000112"/>
+        <Class IRI="#ADNI_00000101"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ADNI_00000113"/>
+        <Class IRI="#ADNI_00000101"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ADNI_00000114"/>
+        <Class IRI="#ADNI_00000136"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ADNI_00000116"/>
+        <Class IRI="#ADNI_00000101"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ADNI_00000117"/>
+        <Class IRI="#ADNI_00000136"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ADNI_00000118"/>
+        <Class IRI="#ADNI_00000136"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ADNI_00000119"/>
+        <Class IRI="#ADNI_00000124"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ADNI_00000120"/>
+        <Class IRI="#ADNI_00000136"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ADNI_00000121"/>
+        <Class IRI="#ADNI_00000124"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ADNI_00000122"/>
+        <Class IRI="http://purl.obolibrary.org/obo/NPT_0010002"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ADNI_00000123"/>
+        <Class IRI="#ADNI_00000014"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ADNI_00000124"/>
+        <Class IRI="#NPT_0022018"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ADNI_00000125"/>
+        <Class IRI="http://purl.obolibrary.org/obo/IAO_0000032"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ADNI_00000126"/>
+        <Class IRI="http://purl.obolibrary.org/obo/IAO_0000032"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ADNI_00000127"/>
+        <Class IRI="http://purl.obolibrary.org/obo/IAO_0000032"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ADNI_00000128"/>
+        <Class IRI="http://purl.obolibrary.org/obo/IAO_0000032"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ADNI_00000129"/>
+        <Class IRI="http://purl.obolibrary.org/obo/IAO_0000032"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ADNI_00000130"/>
+        <Class IRI="http://purl.obolibrary.org/obo/IAO_0000032"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ADNI_00000131"/>
+        <Class IRI="http://purl.obolibrary.org/obo/IAO_0000032"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ADNI_00000132"/>
+        <Class IRI="http://purl.obolibrary.org/obo/IAO_0000032"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ADNI_00000133"/>
+        <Class IRI="http://purl.obolibrary.org/obo/IAO_0000032"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ADNI_00000134"/>
+        <Class IRI="#ADNI_00000126"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ADNI_00000135"/>
+        <Class IRI="#ADNI_00000132"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ADNI_00000136"/>
+        <Class IRI="#ADNI_00000122"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ADNI_00000137"/>
+        <Class IRI="#ADNI_00000135"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ADNI_00000138"/>
+        <Class IRI="#ADNI_00000135"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ADNI_00000139"/>
+        <Class IRI="#ADNI_00000135"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ADNI_00000140"/>
+        <Class IRI="#ADNI_00000135"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ADNI_00000141"/>
+        <Class IRI="#ADNI_00000130"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ADNI_00000142"/>
+        <Class IRI="#ADNI_00000141"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ADNI_00000143"/>
+        <Class IRI="#ADNI_00000141"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ADNI_00000144"/>
+        <Class IRI="#ADNI_00000131"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ADNI_00000145"/>
+        <Class IRI="#ADNI_000018"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ADNI_00000146"/>
+        <Class IRI="#ADNI_000018"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ADNI_00000147"/>
+        <Class IRI="#ADNI_00000128"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ADNI_00000148"/>
+        <Class IRI="#ADNI_00000128"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ADNI_00000155"/>
+        <Class IRI="http://purl.obolibrary.org/obo/NPT_0011006"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#ADNI_000002"/>
@@ -2276,6 +2627,246 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#ADNI_00000100</IRI>
         <Literal xml:lang="en">fear Geriatric Depression assay</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#ADNI_00000101</IRI>
+        <Literal xml:lang="en">Cognitive Change Index memory assay</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#ADNI_00000102</IRI>
+        <Literal xml:lang="en">recalling information Cognitive Change Index assay</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#ADNI_00000103</IRI>
+        <Literal xml:lang="en">names and faces Cognitive Change Index assay</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#ADNI_00000104</IRI>
+        <Literal xml:lang="en">recent events Cognitive Change Index assay</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#ADNI_00000105</IRI>
+        <Literal xml:lang="en">conversations Cognitive Change Index assay</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#ADNI_00000106</IRI>
+        <Literal xml:lang="en">where things are kept Cognitive Change Index assay</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#ADNI_00000107</IRI>
+        <Literal xml:lang="en">new information Cognitive Change Index assay</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#ADNI_00000108</IRI>
+        <Literal xml:lang="en">location of familiar objects Cognitive Change Index assay</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#ADNI_00000109</IRI>
+        <Literal xml:lang="en">intentions Cognitive Change Index assay</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#ADNI_00000110</IRI>
+        <Literal xml:lang="en">remembering without notes and reminders Cognitive Change Index assay</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#ADNI_00000111</IRI>
+        <Literal xml:lang="en">names of friends and family Cognitive Change Index memory assay</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#ADNI_00000112</IRI>
+        <Literal xml:lang="en">other people Cognitive Change Index assay</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#ADNI_00000113</IRI>
+        <Literal xml:lang="en">age group Cognitive Change Index assay</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#ADNI_00000114</IRI>
+        <Literal xml:lang="en">everyday decisions Cognitive Change Index assay</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#ADNI_00000116</IRI>
+        <Literal xml:lang="en">focus on goals Cognitive Change Index assay</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#ADNI_00000117</IRI>
+        <Literal xml:lang="en">shifting activities Cognitive Change Index assay</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#ADNI_00000118</IRI>
+        <Literal xml:lang="en">organizing activities Cognitive Change Index assay</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#ADNI_00000119</IRI>
+        <Literal xml:lang="en">understanding conversations Cognitive Change Index assay</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#ADNI_00000120</IRI>
+        <Literal xml:lang="en">self expression Cognitive Change Index assay</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#ADNI_00000121</IRI>
+        <Literal xml:lang="en">following a story Cognitive Change Index assay</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#ADNI_00000122</IRI>
+        <Literal xml:lang="en">executive functioning assay</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#ADNI_00000123</IRI>
+        <Literal xml:lang="en">Cognitive Change Index judgment and problem solving assay</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#ADNI_00000124</IRI>
+        <Literal xml:lang="en">Cognitive Change Index orientation assay</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#ADNI_00000125</IRI>
+        <Literal xml:lang="en">personal care scalar measurement datum</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#ADNI_00000126</IRI>
+        <Literal xml:lang="en">cognitive orientation scalar measurement datum</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#ADNI_00000127</IRI>
+        <Literal xml:lang="en">community affairs scalar measurement datum</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#ADNI_00000128</IRI>
+        <Literal xml:lang="en">memory scalar measurement datum</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#ADNI_00000129</IRI>
+        <Literal xml:lang="en">recall scalar measurement datum</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#ADNI_00000130</IRI>
+        <Literal xml:lang="en">home and hobbies scalar measurement datum</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#ADNI_00000131</IRI>
+        <Literal xml:lang="en">judgment and problem solving scalar measurement datum</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#ADNI_00000132</IRI>
+        <Literal xml:lang="en">executive function scalar measurement datum</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#ADNI_00000133</IRI>
+        <Literal xml:lang="en">life satisfaction scalar measurement datum</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#ADNI_00000134</IRI>
+        <Literal xml:lang="en">Cognitive Change Index orientation datum</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#ADNI_00000135</IRI>
+        <Literal xml:lang="en">Cognitive Change Index executive functioning datum</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#ADNI_00000136</IRI>
+        <Literal xml:lang="en">Cognitive Change Index executive functioning assay</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#ADNI_00000137</IRI>
+        <Literal xml:lang="en">shifting activities Cognitive Change Index datum</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#ADNI_00000138</IRI>
+        <Literal xml:lang="en">self expression Cognitive Change Index datum</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#ADNI_00000139</IRI>
+        <Literal xml:lang="en">organizing activities Cognitive Change Index datum</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#ADNI_00000140</IRI>
+        <Literal xml:lang="en">everyday decisions Cognitive Change Index datum</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#ADNI_00000141</IRI>
+        <Literal xml:lang="en">Geriatric Depression Scale home and hobbies datum</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#ADNI_00000142</IRI>
+        <Literal xml:lang="en">dropped activities and interests Geriatric Depression datum</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#ADNI_00000143</IRI>
+        <Literal xml:lang="en">staying at home Geriatric Depression datum</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#ADNI_00000144</IRI>
+        <Literal xml:lang="en">Cognitive Change Index judgment and problem solving datum</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#ADNI_00000145</IRI>
+        <Literal xml:lang="en">evaluant Clinical Dementia Rating judgment and problem solving datum</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#ADNI_00000146</IRI>
+        <Literal xml:lang="en">study partner Clinical Dementia Rating judgment and problem solving datum</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#ADNI_00000147</IRI>
+        <Literal xml:lang="en">Geriatric Depression memory datum</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#ADNI_00000148</IRI>
+        <Literal xml:lang="en">Cognitive Change Index memory datum</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#ADNI_00000155</IRI>
+        <Literal xml:lang="en">test</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
