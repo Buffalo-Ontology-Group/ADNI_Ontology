@@ -629,6 +629,7 @@
     </Declaration>
     <Declaration>
         <Class IRI="_v1#ADNI_00000154"/>
+        <Class IRI="#ADNI_00000155"/>
     </Declaration>
     <Declaration>
         <Class IRI="_v1#ADNI_000002"/>
@@ -677,6 +678,10 @@
     </Declaration>
     <Declaration>
         <Class IRI="_v1#ADNI_000018"/>
+        <Class IRI="#ADNI_000017"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ADNI_000018"/>
     </Declaration>
     <Declaration>
         <Class IRI="_v1#ADNI_000019"/>
@@ -686,6 +691,13 @@
     </Declaration>
     <Declaration>
         <Class IRI="_v1#ADNI_000024"/>
+        <Class IRI="#ADNI_000021"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ADNI_000022"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ADNI_000024"/>
     </Declaration>
     <Declaration>
         <Class IRI="_v1#ADNI_000025"/>
@@ -958,6 +970,20 @@
             </ObjectSomeValuesFrom>
         </ObjectIntersectionOf>
     </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#ADNI_000055"/>
+        <ObjectIntersectionOf>
+            <Class IRI="http://purl.obolibrary.org/obo/NPT_0010002"/>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#ADNI_00000066"/>
+                <Class IRI="#ADNI_000017"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#ADNI_00000066"/>
+                <Class IRI="#ADNI_000024"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
     <SubClassOf>
         <Class IRI="http://purl.obolibrary.org/obo/BFO_0000023"/>
         <Class IRI="http://purl.obolibrary.org/obo/BFO_0000017"/>
@@ -1041,6 +1067,16 @@
     <SubClassOf>
         <Class IRI="_v1#ADNI_00000002"/>
         <Class IRI="_v1#ADNI_00000125"/>
+        <Class IRI="#ADNI_00000000"/>
+        <Class IRI="#ADNI_000017"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ADNI_00000001"/>
+        <Class IRI="#ADNI_000017"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ADNI_00000002"/>
+        <Class IRI="#ADNI_000017"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="_v1#ADNI_00000004"/>
@@ -1453,6 +1489,40 @@
     <SubClassOf>
         <Class IRI="_v1#ADNI_00000133"/>
         <Class IRI="_v1#ADNI_00000150"/>
+        <Class IRI="#ADNI_00000125"/>
+        <Class IRI="http://purl.obolibrary.org/obo/IAO_0000032"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ADNI_00000126"/>
+        <Class IRI="http://purl.obolibrary.org/obo/IAO_0000032"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ADNI_00000127"/>
+        <Class IRI="http://purl.obolibrary.org/obo/IAO_0000032"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ADNI_00000128"/>
+        <Class IRI="http://purl.obolibrary.org/obo/IAO_0000032"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ADNI_00000129"/>
+        <Class IRI="http://purl.obolibrary.org/obo/IAO_0000032"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ADNI_00000130"/>
+        <Class IRI="http://purl.obolibrary.org/obo/IAO_0000032"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ADNI_00000131"/>
+        <Class IRI="http://purl.obolibrary.org/obo/IAO_0000032"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ADNI_00000132"/>
+        <Class IRI="http://purl.obolibrary.org/obo/IAO_0000032"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ADNI_00000133"/>
+        <Class IRI="http://purl.obolibrary.org/obo/IAO_0000032"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="_v1#ADNI_00000134"/>
@@ -1533,6 +1603,8 @@
     <SubClassOf>
         <Class IRI="_v1#ADNI_00000154"/>
         <Class IRI="_v1#ADNI_00000151"/>
+        <Class IRI="#ADNI_00000155"/>
+        <Class IRI="http://purl.obolibrary.org/obo/NPT_0011006"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="_v1#ADNI_000002"/>
@@ -1605,6 +1677,28 @@
     <SubClassOf>
         <Class IRI="_v1#ADNI_000020"/>
         <Class IRI="_v1#ADNI_00000126"/>
+        <Class IRI="#ADNI_000017"/>
+        <Class IRI="http://purl.obolibrary.org/obo/IAO_0000032"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ADNI_000018"/>
+        <Class IRI="#ADNI_000017"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ADNI_000019"/>
+        <Class IRI="#ADNI_000017"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ADNI_000020"/>
+        <Class IRI="#ADNI_000017"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ADNI_000021"/>
+        <Class IRI="http://purl.obolibrary.org/obo/IAO_0000032"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ADNI_000022"/>
+        <Class IRI="http://purl.obolibrary.org/obo/IAO_0000032"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="_v1#ADNI_000024"/>
@@ -1749,6 +1843,8 @@
     <SubClassOf>
         <Class IRI="_v1#NPT_0022020"/>
         <Class IRI="http://purl.obolibrary.org/obo/NPT_0010002"/>
+        <Class IRI="#NPT_0022020"/>
+        <Class IRI="#ADNI_00000085"/>
     </SubClassOf>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
@@ -1924,6 +2020,8 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>_v1#ADNI_00000000</IRI>
         <Literal xml:lang="en">Clinical Dementia Rating community affairs datum</Literal>
+        <IRI>#ADNI_00000000</IRI>
+        <Literal xml:lang="en">Clinical Dementia Rating community affairs scalar measurement datum</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000117"/>
@@ -1934,6 +2032,8 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>_v1#ADNI_00000001</IRI>
         <Literal xml:lang="en">Clinical Dementia Rating home and hobbies datum</Literal>
+        <IRI>#ADNI_00000001</IRI>
+        <Literal xml:lang="en">Clinical Dementia Rating home and hobbies scalar measurement datum</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000117"/>
@@ -1944,6 +2044,8 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>_v1#ADNI_00000002</IRI>
         <Literal xml:lang="en">Clinical Dementia Rating personal care datum</Literal>
+        <IRI>#ADNI_00000002</IRI>
+        <Literal xml:lang="en">Clinical Dementia Rating personal care scalar measurement datum</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
@@ -2064,6 +2166,8 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>_v1#ADNI_00000015</IRI>
         <Literal xml:lang="en">similarities Clinical Dementia Rating assay</Literal>
+        <IRI>#ADNI_00000015</IRI>
+        <Literal xml:lang="en">CDR similarities assay</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000117"/>
@@ -2074,6 +2178,8 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>_v1#ADNI_00000016</IRI>
         <Literal xml:lang="en">differences Clinical Dementia Rating assay</Literal>
+        <IRI>#ADNI_00000016</IRI>
+        <Literal xml:lang="en">CDR differences assay</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000117"/>
@@ -2084,6 +2190,8 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>_v1#ADNI_00000017</IRI>
         <Literal xml:lang="en">calculations Clinical Dementia Rating assay</Literal>
+        <IRI>#ADNI_00000017</IRI>
+        <Literal xml:lang="en">CDR calculations assay</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -2109,6 +2217,8 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>_v1#ADNI_00000020</IRI>
         <Literal xml:lang="en">judgment Clinical Dementia Rating assay</Literal>
+        <IRI>#ADNI_00000020</IRI>
+        <Literal xml:lang="en">CDR judgment assay</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
@@ -2269,6 +2379,8 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>_v1#ADNI_00000039</IRI>
         <Literal xml:lang="en">study partner Clinical Dementia Rating judgment and problem solving assay</Literal>
+        <IRI>#ADNI_00000039</IRI>
+        <Literal xml:lang="en">study partner CDR judgment and problem solving assay</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000117"/>
@@ -2309,6 +2421,8 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>_v1#ADNI_00000043</IRI>
         <Literal xml:lang="en">study partner Clinical Dementia Rating recent event assay</Literal>
+        <IRI>#ADNI_00000043</IRI>
+        <Literal xml:lang="en">study partner CDR recent event assay</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -2339,6 +2453,8 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>_v1#ADNI_00000048</IRI>
         <Literal xml:lang="en">study partner Clinical Dementia Rating short list assay</Literal>
+        <IRI>#ADNI_00000048</IRI>
+        <Literal xml:lang="en">study partner CDR short list assay</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000117"/>
@@ -2349,6 +2465,8 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>_v1#ADNI_00000049</IRI>
         <Literal xml:lang="en">study partner Clinical Dementia Rating memory decline assay</Literal>
+        <IRI>#ADNI_00000049</IRI>
+        <Literal xml:lang="en">study partner CDR memory decline assay</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000117"/>
@@ -2359,6 +2477,8 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>_v1#ADNI_00000050</IRI>
         <Literal xml:lang="en">study partner Clinical Dementia Rating life interference assay</Literal>
+        <IRI>#ADNI_00000050</IRI>
+        <Literal xml:lang="en">study partner CDR life interference assay</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000117"/>
@@ -2369,6 +2489,8 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>_v1#ADNI_00000051</IRI>
         <Literal xml:lang="en">study partner Clinical Dementia Rating major event assay</Literal>
+        <IRI>#ADNI_00000051</IRI>
+        <Literal xml:lang="en">study partner CDR major event assay</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000117"/>
@@ -2394,6 +2516,8 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>_v1#ADNI_00000054</IRI>
         <Literal xml:lang="en">study partner Clinical Dementia Rating birth date assay</Literal>
+        <IRI>#ADNI_00000054</IRI>
+        <Literal xml:lang="en">study partner CDR birth date assay</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000117"/>
@@ -2404,6 +2528,8 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>_v1#ADNI_00000055</IRI>
         <Literal xml:lang="en">study partner Clinical Dementia Rating birth place assay</Literal>
+        <IRI>#ADNI_00000055</IRI>
+        <Literal xml:lang="en">study partner CDR birth place assay</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000117"/>
@@ -2424,6 +2550,8 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>_v1#ADNI_00000057</IRI>
         <Literal xml:lang="en">study partner Clinical Dementia Rating occupation assay</Literal>
+        <IRI>#ADNI_00000057</IRI>
+        <Literal xml:lang="en">study partner CDR occupation assay</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000117"/>
@@ -2434,6 +2562,8 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>_v1#ADNI_00000058</IRI>
         <Literal xml:lang="en">study partner Clinical Dementia Rating main occupation assay</Literal>
+        <IRI>#ADNI_00000058</IRI>
+        <Literal xml:lang="en">study partner CDR main occupation assay</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000117"/>
@@ -2444,6 +2574,8 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>_v1#ADNI_00000059</IRI>
         <Literal xml:lang="en">study partner Clinical Dementia Rating last occupation assay</Literal>
+        <IRI>#ADNI_00000059</IRI>
+        <Literal xml:lang="en">study partner CDR last occupation assay</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000117"/>
@@ -2454,6 +2586,8 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>_v1#ADNI_00000060</IRI>
         <Literal xml:lang="en">study partner Clinical Dementia Rating retirement assay</Literal>
+        <IRI>#ADNI_00000060</IRI>
+        <Literal xml:lang="en">study partner CDR retirement assay</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000117"/>
@@ -2464,6 +2598,8 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>_v1#ADNI_00000061</IRI>
         <Literal xml:lang="en">study partner Clinical Dementia Rating money assay</Literal>
+        <IRI>#ADNI_00000061</IRI>
+        <Literal xml:lang="en">study partner CDR money assay</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000117"/>
@@ -2494,6 +2630,8 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>_v1#ADNI_00000064</IRI>
         <Literal xml:lang="en">study partner Clinical Dementia Rating household emergency assay</Literal>
+        <IRI>#ADNI_00000064</IRI>
+        <Literal xml:lang="en">study partner CDR household emergency assay</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000117"/>
@@ -2504,6 +2642,8 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>_v1#ADNI_00000065</IRI>
         <Literal xml:lang="en">study partner Clinical Dementia Rating social behavior assay</Literal>
+        <IRI>#ADNI_00000065</IRI>
+        <Literal xml:lang="en">study partner CDR social behavior assay</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -2559,6 +2699,18 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>_v1#ADNI_00000091</IRI>
         <Literal xml:lang="en">most people better off Geriatric Depression Assay</Literal>
+        <IRI>#ADNI_00000089</IRI>
+        <Literal xml:lang="en">Emptiness Geriatric Depression assay</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#ADNI_00000090</IRI>
+        <Literal xml:lang="en">Wonderful to be alive Geriatric Depression assay</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#ADNI_00000091</IRI>
+        <Literal xml:lang="en">Most people better off Geriatric Depression Assay</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -2579,6 +2731,8 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>_v1#ADNI_00000095</IRI>
         <Literal xml:lang="en">helplessness Geriatric Depression assay</Literal>
+        <IRI>#ADNI_00000095</IRI>
+        <Literal xml:lang="en">helplessness Geriatric Depression Assay</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -2879,6 +3033,8 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>_v1#ADNI_00000154</IRI>
         <Literal xml:lang="en">wonderful to be alive Geriatric Depression datum</Literal>
+        <IRI>#ADNI_00000155</IRI>
+        <Literal xml:lang="en">test</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
@@ -3083,12 +3239,25 @@
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000117"/>
         <IRI>_v1#ADNI_000018</IRI>
+        <IRI>#ADNI_000017</IRI>
+        <Literal>Lauren M. Wishnie - https://orcid.org/0000-0002-7245-3450</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#ADNI_000017</IRI>
+        <Literal xml:lang="en">Clinical Dementia Rating scalar measurement datum</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000117"/>
+        <IRI>#ADNI_000018</IRI>
         <Literal>Lauren M. Wishnie - https://orcid.org/0000-0002-7245-3450</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>_v1#ADNI_000018</IRI>
         <Literal xml:lang="en">Clinical Dementia Rating judgment and problem solving datum</Literal>
+        <IRI>#ADNI_000018</IRI>
+        <Literal xml:lang="en">Clinical Dementia Rating judgment and problem solving scalar measurement datum</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000117"/>
@@ -3099,6 +3268,8 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>_v1#ADNI_000019</IRI>
         <Literal xml:lang="en">Clinical Dementia Rating memory datum</Literal>
+        <IRI>#ADNI_000019</IRI>
+        <Literal xml:lang="en">Clinical Dementia Rating memory scalar measurement datum</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000117"/>
@@ -3109,6 +3280,28 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>_v1#ADNI_000020</IRI>
         <Literal xml:lang="en">Clinical Dementia Rating orientation datum</Literal>
+        <IRI>#ADNI_000020</IRI>
+        <Literal xml:lang="en">Clinical Dementia Rating orientation scalar measurement datum</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000117"/>
+        <IRI>#ADNI_000021</IRI>
+        <Literal>Lauren M. Wishnie - https://orcid.org/0000-0002-7245-3450</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#ADNI_000021</IRI>
+        <Literal xml:lang="en">Cognitive Change Index scalar measurement datum</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000117"/>
+        <IRI>#ADNI_000022</IRI>
+        <Literal>Lauren M. Wishnie - https://orcid.org/0000-0002-7245-3450</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#ADNI_000022</IRI>
+        <Literal xml:lang="en">Geriatric Depression scalar measurement datum</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
