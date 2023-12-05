@@ -508,6 +508,12 @@
         <Class IRI="#ADNI_00000232"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#ADNI_00000233"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ADNI_00000234"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="_v1#ADNI_00000000"/>
     </Declaration>
     <Declaration>
@@ -1443,6 +1449,10 @@
         <Class IRI="http://www.ifomis.org/bfo/1.1/snap#IndependentContinuant"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/UBERON_0006314"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/snap#http://purl.obolibrary.org/obo/BFO_0000040"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="http://www.ebi.ac.uk/efo/EFO_0004318"/>
         <Class IRI="http://purl.obolibrary.org/obo/GO_0007610"/>
     </SubClassOf>
@@ -1733,6 +1743,14 @@
     <SubClassOf>
         <Class IRI="#ADNI_00000232"/>
         <Class IRI="#ADNI_00000225"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ADNI_00000233"/>
+        <Class IRI="_v1#ADNI_000024"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ADNI_00000234"/>
+        <Class IRI="_v1#ADNI_000024"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="_v1#ADNI_00000000"/>
@@ -2591,6 +2609,11 @@
         <Literal>measurement datum</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000117"/>
+        <IRI>http://purl.obolibrary.org/obo/IAO_0000414</IRI>
+        <Literal>Lauren M. Wishnie - https://orcid.org/0000-0002-7245-3450</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>http://purl.obolibrary.org/obo/IAO_0000414</IRI>
         <Literal>mass measurement datum</Literal>
@@ -2946,9 +2969,19 @@
         <Literal xml:lang="en">adequate information Clinical Dementia Rating datum</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000117"/>
+        <IRI>#ADNI_00000173</IRI>
+        <Literal>Lauren M. Wishnie - https://orcid.org/0000-0002-7245-3450</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#ADNI_00000173</IRI>
         <Literal xml:lang="en">household chore changes Clinical Dementia Rating datum</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000117"/>
+        <IRI>#ADNI_00000174</IRI>
+        <Literal>Lauren M. Wishnie - https://orcid.org/0000-0002-7245-3450</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -2956,9 +2989,19 @@
         <Literal xml:lang="en">remaining household skills Clinical Dementia Rating datum</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000117"/>
+        <IRI>#ADNI_00000175</IRI>
+        <Literal>Lauren M. Wishnie - https://orcid.org/0000-0002-7245-3450</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#ADNI_00000175</IRI>
         <Literal xml:lang="en">hobby changes Clinical Dementia Rating datum</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000117"/>
+        <IRI>#ADNI_00000176</IRI>
+        <Literal>Lauren M. Wishnie - https://orcid.org/0000-0002-7245-3450</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -2966,9 +3009,19 @@
         <Literal xml:lang="en">remaining hobby skills Clinical Dementia Rating datum</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000117"/>
+        <IRI>#ADNI_00000177</IRI>
+        <Literal>Lauren M. Wishnie - https://orcid.org/0000-0002-7245-3450</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#ADNI_00000177</IRI>
         <Literal xml:lang="en">nursing home lost skills Clinical Dementia Rating datum</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000117"/>
+        <IRI>#ADNI_00000179</IRI>
+        <Literal>Lauren M. Wishnie - https://orcid.org/0000-0002-7245-3450</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -2976,9 +3029,19 @@
         <Literal xml:lang="en">dressing Clinical Dementia Rating datum</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000117"/>
+        <IRI>#ADNI_00000180</IRI>
+        <Literal>Lauren M. Wishnie - https://orcid.org/0000-0002-7245-3450</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#ADNI_00000180</IRI>
         <Literal xml:lang="en">washing and grooming Clinical Dementia Rating datum</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000117"/>
+        <IRI>#ADNI_00000181</IRI>
+        <Literal>Lauren M. Wishnie - https://orcid.org/0000-0002-7245-3450</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -2986,9 +3049,19 @@
         <Literal xml:lang="en">eating habits Clinical Dementia Rating datum</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000117"/>
+        <IRI>#ADNI_00000182</IRI>
+        <Literal>Lauren M. Wishnie - https://orcid.org/0000-0002-7245-3450</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#ADNI_00000182</IRI>
         <Literal xml:lang="en">sphincter control Clinical Dementia Rating datum</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000117"/>
+        <IRI>#ADNI_00000183</IRI>
+        <Literal>Lauren M. Wishnie - https://orcid.org/0000-0002-7245-3450</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -2996,9 +3069,19 @@
         <Literal xml:lang="en">memory or thinking problems Clinical Dementia Rating datum</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000117"/>
+        <IRI>#ADNI_00000184</IRI>
+        <Literal>Lauren M. Wishnie - https://orcid.org/0000-0002-7245-3450</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#ADNI_00000184</IRI>
         <Literal xml:lang="en">memory of recent experiences Clinical Dementia Rating datum</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000117"/>
+        <IRI>#ADNI_00000185</IRI>
+        <Literal>Lauren M. Wishnie - https://orcid.org/0000-0002-7245-3450</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -3006,9 +3089,19 @@
         <Literal xml:lang="en">within one week recent experiences Clinical Dementia Rating datum</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000117"/>
+        <IRI>#ADNI_00000186</IRI>
+        <Literal>Lauren M. Wishnie - https://orcid.org/0000-0002-7245-3450</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#ADNI_00000186</IRI>
         <Literal xml:lang="en">within one month Clinical Dementia Rating datum</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000117"/>
+        <IRI>#ADNI_00000187</IRI>
+        <Literal>Lauren M. Wishnie - https://orcid.org/0000-0002-7245-3450</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -3016,9 +3109,19 @@
         <Literal xml:lang="en">memory of a name and address Clinical Dementia Rating datum</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000117"/>
+        <IRI>#ADNI_00000188</IRI>
+        <Literal>Lauren M. Wishnie - https://orcid.org/0000-0002-7245-3450</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#ADNI_00000188</IRI>
         <Literal xml:lang="en">memory of birthday Clinical Dementia Rating datum</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000117"/>
+        <IRI>#ADNI_00000189</IRI>
+        <Literal>Lauren M. Wishnie - https://orcid.org/0000-0002-7245-3450</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -3026,9 +3129,19 @@
         <Literal xml:lang="en">memory of birthplace Clinical Dementia Rating datum</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000117"/>
+        <IRI>#ADNI_00000190</IRI>
+        <Literal>Lauren M. Wishnie - https://orcid.org/0000-0002-7245-3450</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#ADNI_00000190</IRI>
         <Literal xml:lang="en">memory of last school attended Clinical Dementia Rating datum</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000117"/>
+        <IRI>#ADNI_00000191</IRI>
+        <Literal>Lauren M. Wishnie - https://orcid.org/0000-0002-7245-3450</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -3036,9 +3149,19 @@
         <Literal xml:lang="en">school name Clinical Dementia Rating datum</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000117"/>
+        <IRI>#ADNI_00000192</IRI>
+        <Literal>Lauren M. Wishnie - https://orcid.org/0000-0002-7245-3450</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#ADNI_00000192</IRI>
         <Literal xml:lang="en">school location Clinical Dementia Rating datum</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000117"/>
+        <IRI>#ADNI_00000193</IRI>
+        <Literal>Lauren M. Wishnie - https://orcid.org/0000-0002-7245-3450</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -3046,9 +3169,19 @@
         <Literal xml:lang="en">school grade Clinical Dementia Rating datum</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000117"/>
+        <IRI>#ADNI_00000194</IRI>
+        <Literal>Lauren M. Wishnie - https://orcid.org/0000-0002-7245-3450</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#ADNI_00000194</IRI>
         <Literal xml:lang="en">memory of main occupation Clinical Dementia Rating datum</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000117"/>
+        <IRI>#ADNI_00000195</IRI>
+        <Literal>Lauren M. Wishnie - https://orcid.org/0000-0002-7245-3450</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -3056,9 +3189,19 @@
         <Literal xml:lang="en">memory of last major occupation Clinical Dementia Rating datum</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000117"/>
+        <IRI>#ADNI_00000196</IRI>
+        <Literal>Lauren M. Wishnie - https://orcid.org/0000-0002-7245-3450</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#ADNI_00000196</IRI>
         <Literal xml:lang="en">memory of retirement date Clinical Dementia Rating datum</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000117"/>
+        <IRI>#ADNI_00000197</IRI>
+        <Literal>Lauren M. Wishnie - https://orcid.org/0000-0002-7245-3450</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -3066,9 +3209,19 @@
         <Literal xml:lang="en">memory of retirement reason Clinical Dementia Rating datum</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000117"/>
+        <IRI>#ADNI_00000198</IRI>
+        <Literal>Lauren M. Wishnie - https://orcid.org/0000-0002-7245-3450</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#ADNI_00000198</IRI>
         <Literal xml:lang="en">similarities evaluant Clinical Dementia Rating datum</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000117"/>
+        <IRI>#ADNI_00000199</IRI>
+        <Literal>Lauren M. Wishnie - https://orcid.org/0000-0002-7245-3450</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -3076,9 +3229,19 @@
         <Literal xml:lang="en">differences evaluant Clinical Dementia Rating datum</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000117"/>
+        <IRI>#ADNI_00000200</IRI>
+        <Literal>Lauren M. Wishnie - https://orcid.org/0000-0002-7245-3450</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#ADNI_00000200</IRI>
         <Literal xml:lang="en">calculations evaluant Clinical Dementia Rating datum</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000117"/>
+        <IRI>#ADNI_00000201</IRI>
+        <Literal>Lauren M. Wishnie - https://orcid.org/0000-0002-7245-3450</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -3086,9 +3249,19 @@
         <Literal xml:lang="en">judgment evaluant Clinical Dementia Rating datum</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000117"/>
+        <IRI>#ADNI_00000202</IRI>
+        <Literal>Lauren M. Wishnie - https://orcid.org/0000-0002-7245-3450</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#ADNI_00000202</IRI>
         <Literal xml:lang="en">turnip and cauliflower Clinical Dementia Rating datum</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000117"/>
+        <IRI>#ADNI_00000203</IRI>
+        <Literal>Lauren M. Wishnie - https://orcid.org/0000-0002-7245-3450</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -3096,9 +3269,19 @@
         <Literal xml:lang="en">desk and bookcase Clinical Dementia Rating datum</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000117"/>
+        <IRI>#ADNI_00000204</IRI>
+        <Literal>Lauren M. Wishnie - https://orcid.org/0000-0002-7245-3450</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#ADNI_00000204</IRI>
         <Literal xml:lang="en">lie and mistake Clinical Dementia Rating datum</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000117"/>
+        <IRI>#ADNI_00000205</IRI>
+        <Literal>Lauren M. Wishnie - https://orcid.org/0000-0002-7245-3450</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -3106,9 +3289,19 @@
         <Literal xml:lang="en">river and canal Clinical Dementia Rating datum</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000117"/>
+        <IRI>#ADNI_00000206</IRI>
+        <Literal>Lauren M. Wishnie - https://orcid.org/0000-0002-7245-3450</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#ADNI_00000206</IRI>
         <Literal xml:lang="en">money Clinical Dementia Rating datum</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000117"/>
+        <IRI>#ADNI_00000207</IRI>
+        <Literal>Lauren M. Wishnie - https://orcid.org/0000-0002-7245-3450</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -3116,9 +3309,19 @@
         <Literal xml:lang="en">subtraction Clinical Dementia Rating datum</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000117"/>
+        <IRI>#ADNI_00000208</IRI>
+        <Literal>Lauren M. Wishnie - https://orcid.org/0000-0002-7245-3450</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#ADNI_00000208</IRI>
         <Literal xml:lang="en">friend in a strange city Clinical Dementia Rating datum</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000117"/>
+        <IRI>#ADNI_00000209</IRI>
+        <Literal>Lauren M. Wishnie - https://orcid.org/0000-0002-7245-3450</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -3126,9 +3329,19 @@
         <Literal xml:lang="en">reason for examination Clinical Dementia Rating datum</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000117"/>
+        <IRI>#ADNI_00000210</IRI>
+        <Literal>Lauren M. Wishnie - https://orcid.org/0000-0002-7245-3450</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#ADNI_00000210</IRI>
         <Literal xml:lang="en">problem solving study partner Clinical Dementia Rating datum</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000117"/>
+        <IRI>#ADNI_00000211</IRI>
+        <Literal>Lauren M. Wishnie - https://orcid.org/0000-0002-7245-3450</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -3136,9 +3349,19 @@
         <Literal xml:lang="en">small sums of money study partner Clinical Dementia Rating datum</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000117"/>
+        <IRI>#ADNI_00000212</IRI>
+        <Literal>Lauren M. Wishnie - https://orcid.org/0000-0002-7245-3450</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#ADNI_00000212</IRI>
         <Literal xml:lang="en">business and financial transactions study partner Clinical Dementia Rating datum</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000117"/>
+        <IRI>#ADNI_00000213</IRI>
+        <Literal>Lauren M. Wishnie - https://orcid.org/0000-0002-7245-3450</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -3146,9 +3369,19 @@
         <Literal xml:lang="en">household emergency study partner Clinical Dementia Rating datum</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000117"/>
+        <IRI>#ADNI_00000214</IRI>
+        <Literal>Lauren M. Wishnie - https://orcid.org/0000-0002-7245-3450</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#ADNI_00000214</IRI>
         <Literal xml:lang="en">situational understanding study partner Clinical Dementia Rating datum</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000117"/>
+        <IRI>#ADNI_00000215</IRI>
+        <Literal>Lauren M. Wishnie - https://orcid.org/0000-0002-7245-3450</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -3156,9 +3389,19 @@
         <Literal xml:lang="en">social behavior study partner Clinical Dementia Rating datum</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000117"/>
+        <IRI>#ADNI_00000216</IRI>
+        <Literal>Lauren M. Wishnie - https://orcid.org/0000-0002-7245-3450</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#ADNI_00000216</IRI>
         <Literal xml:lang="en">study partner Clinical Dementia Rating orientation datum</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000117"/>
+        <IRI>#ADNI_00000217</IRI>
+        <Literal>Lauren M. Wishnie - https://orcid.org/0000-0002-7245-3450</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -3166,9 +3409,19 @@
         <Literal xml:lang="en">date study partner Clinical Dementia Rating datum</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000117"/>
+        <IRI>#ADNI_00000218</IRI>
+        <Literal>Lauren M. Wishnie - https://orcid.org/0000-0002-7245-3450</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#ADNI_00000218</IRI>
         <Literal xml:lang="en">month study partner Clinical Dementia Rating datum</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000117"/>
+        <IRI>#ADNI_00000219</IRI>
+        <Literal>Lauren M. Wishnie - https://orcid.org/0000-0002-7245-3450</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -3176,9 +3429,19 @@
         <Literal xml:lang="en">year study partner Clinical Dementia Rating datum</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000117"/>
+        <IRI>#ADNI_00000220</IRI>
+        <Literal>Lauren M. Wishnie - https://orcid.org/0000-0002-7245-3450</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#ADNI_00000220</IRI>
         <Literal xml:lang="en">day of the week study partner Clinical Dementia Rating datum</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000117"/>
+        <IRI>#ADNI_00000221</IRI>
+        <Literal>Lauren M. Wishnie - https://orcid.org/0000-0002-7245-3450</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -3186,9 +3449,19 @@
         <Literal xml:lang="en">time relationships study partner Clinical Dementia Rating datum</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000117"/>
+        <IRI>#ADNI_00000222</IRI>
+        <Literal>Lauren M. Wishnie - https://orcid.org/0000-0002-7245-3450</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#ADNI_00000222</IRI>
         <Literal xml:lang="en">familiar streets study partner Clinical Dementia Rating datum</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000117"/>
+        <IRI>#ADNI_00000223</IRI>
+        <Literal>Lauren M. Wishnie - https://orcid.org/0000-0002-7245-3450</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -3196,9 +3469,19 @@
         <Literal xml:lang="en">navigation outside neighborhood study partner Clinical Dementia Rating datum</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000117"/>
+        <IRI>#ADNI_00000224</IRI>
+        <Literal>Lauren M. Wishnie - https://orcid.org/0000-0002-7245-3450</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#ADNI_00000224</IRI>
         <Literal xml:lang="en">navigation indoors study partner Clinical Dementia Rating datum</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000117"/>
+        <IRI>#ADNI_00000225</IRI>
+        <Literal>Lauren M. Wishnie - https://orcid.org/0000-0002-7245-3450</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -3206,9 +3489,19 @@
         <Literal xml:lang="en">evaluant Clinical Dementia Rating orientation datum</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000117"/>
+        <IRI>#ADNI_00000226</IRI>
+        <Literal>Lauren M. Wishnie - https://orcid.org/0000-0002-7245-3450</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#ADNI_00000226</IRI>
         <Literal xml:lang="en">date evaluant Clinical Dementia Rating datum</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000117"/>
+        <IRI>#ADNI_00000227</IRI>
+        <Literal>Lauren M. Wishnie - https://orcid.org/0000-0002-7245-3450</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -3216,9 +3509,19 @@
         <Literal xml:lang="en">day of the week evaluant Clinical Dementia Rating datum</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000117"/>
+        <IRI>#ADNI_00000228</IRI>
+        <Literal>Lauren M. Wishnie - https://orcid.org/0000-0002-7245-3450</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#ADNI_00000228</IRI>
         <Literal xml:lang="en">month evaluant Clinical Dementia Rating datum</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000117"/>
+        <IRI>#ADNI_00000229</IRI>
+        <Literal>Lauren M. Wishnie - https://orcid.org/0000-0002-7245-3450</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -3226,9 +3529,19 @@
         <Literal xml:lang="en">year evaluant Clinical Dementia Rating datum</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000117"/>
+        <IRI>#ADNI_00000230</IRI>
+        <Literal>Lauren M. Wishnie - https://orcid.org/0000-0002-7245-3450</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#ADNI_00000230</IRI>
         <Literal xml:lang="en">building evaluant Clinical Dementia Rating datum</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000117"/>
+        <IRI>#ADNI_00000231</IRI>
+        <Literal>Lauren M. Wishnie - https://orcid.org/0000-0002-7245-3450</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -3236,9 +3549,34 @@
         <Literal xml:lang="en">city evaluant Clinical Dementia Rating datum</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000117"/>
+        <IRI>#ADNI_00000232</IRI>
+        <Literal>Lauren M. Wishnie - https://orcid.org/0000-0002-7245-3450</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#ADNI_00000232</IRI>
         <Literal xml:lang="en">current time evaluant Clinical Dementia Rating datum</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000117"/>
+        <IRI>#ADNI_00000233</IRI>
+        <Literal>Lauren M. Wishnie - https://orcid.org/0000-0002-7245-3450</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#ADNI_00000233</IRI>
+        <Literal xml:lang="en">sum of boxes Clinical Dementia Rating score</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000117"/>
+        <IRI>#ADNI_00000234</IRI>
+        <Literal>Lauren M. Wishnie - https://orcid.org/0000-0002-7245-3450</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#ADNI_00000234</IRI>
+        <Literal xml:lang="en">global Clinical Dementia Rating score</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -3373,7 +3711,7 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>_v1#ADNI_00000013</IRI>
-        <Literal xml:lang="en">study partner recognition Clinical Dementia Rating assay</Literal>
+        <Literal xml:lang="en">recognition study partner Clinical Dementia Rating assay</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000117"/>
@@ -3393,7 +3731,7 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>_v1#ADNI_00000015</IRI>
-        <Literal xml:lang="en">evaluant Clinical Dementia Rating similarities assay</Literal>
+        <Literal xml:lang="en">similarities evaluant Clinical Dementia Rating assay</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000117"/>
@@ -3403,7 +3741,7 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>_v1#ADNI_00000016</IRI>
-        <Literal xml:lang="en">evaluant Clinical Dementia Rating differences assay</Literal>
+        <Literal xml:lang="en">differences evaluant Clinical Dementia Rating assay</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000117"/>
@@ -3413,7 +3751,7 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>_v1#ADNI_00000017</IRI>
-        <Literal xml:lang="en">evaluant Clinical Dementia Rating calculations assay</Literal>
+        <Literal xml:lang="en">calculations evaluant Clinical Dementia Rating assay</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -3438,7 +3776,7 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>_v1#ADNI_00000020</IRI>
-        <Literal xml:lang="en">evaluant Clinical Dementia Rating judgment assay</Literal>
+        <Literal xml:lang="en">judgment evaluant Clinical Dementia Rating assay</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
@@ -3498,7 +3836,7 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>_v1#ADNI_00000024</IRI>
-        <Literal xml:lang="en">study partner date Clinical Dementia Rating assay</Literal>
+        <Literal xml:lang="en">date study partner Clinical Dementia Rating assay</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000117"/>
@@ -3508,7 +3846,7 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>_v1#ADNI_00000025</IRI>
-        <Literal xml:lang="en">study partner month Clinical Dementia Rating assay</Literal>
+        <Literal xml:lang="en">month study partner Clinical Dementia Rating assay</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000117"/>
@@ -3518,7 +3856,7 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>_v1#ADNI_00000031</IRI>
-        <Literal xml:lang="en">study partner year Clinical Dementia Rating assay</Literal>
+        <Literal xml:lang="en">year study partner Clinical Dementia Rating assay</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000117"/>
@@ -3528,7 +3866,7 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>_v1#ADNI_00000032</IRI>
-        <Literal xml:lang="en">study partner day Clinical Dementia Rating assay</Literal>
+        <Literal xml:lang="en">day study partner Clinical Dementia Rating assay</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000117"/>
@@ -3538,7 +3876,7 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>_v1#ADNI_00000033</IRI>
-        <Literal xml:lang="en">study partner time Clinical Dementia Rating assay</Literal>
+        <Literal xml:lang="en">time study partner Clinical Dementia Rating assay</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000117"/>
@@ -3793,7 +4131,7 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>_v1#ADNI_00000061</IRI>
-        <Literal xml:lang="en">study partner Clinical Dementia Rating money assay</Literal>
+        <Literal xml:lang="en">money study partner Clinical Dementia Rating assay</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000117"/>
@@ -3803,7 +4141,7 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>_v1#ADNI_00000062</IRI>
-        <Literal xml:lang="en">study partner CDR simple money assay</Literal>
+        <Literal xml:lang="en">simple money study partner Clinical Dementia Rating assay</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000117"/>
@@ -3813,7 +4151,7 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>_v1#ADNI_00000063</IRI>
-        <Literal xml:lang="en">study partner CDR complex money assay</Literal>
+        <Literal xml:lang="en">complex money study partner Clinical Dementia Rating assay</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000117"/>
@@ -3823,7 +4161,7 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>_v1#ADNI_00000064</IRI>
-        <Literal xml:lang="en">study partner Clinical Dementia Rating household emergency assay</Literal>
+        <Literal xml:lang="en">household emergency study partner Clinical Dementia Rating assay</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000117"/>
@@ -3833,7 +4171,7 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>_v1#ADNI_00000065</IRI>
-        <Literal xml:lang="en">study partner Clinical Dementia Rating social behavior assay</Literal>
+        <Literal xml:lang="en">social behavior study partner Clinical Dementia Rating assay</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -3841,14 +4179,29 @@
         <Literal xml:lang="en">has specified output</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000117"/>
+        <IRI>_v1#ADNI_00000082</IRI>
+        <Literal>Lauren M. Wishnie - https://orcid.org/0000-0002-7245-3450</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>_v1#ADNI_00000082</IRI>
         <Literal xml:lang="en">Geriatric Depression home and hobbies assay</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000117"/>
+        <IRI>_v1#ADNI_00000083</IRI>
+        <Literal>Lauren M. Wishnie - https://orcid.org/0000-0002-7245-3450</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>_v1#ADNI_00000083</IRI>
         <Literal xml:lang="en">dropped activities and interests Geriatric Depression assay</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000117"/>
+        <IRI>_v1#ADNI_00000084</IRI>
+        <Literal>Lauren M. Wishnie - https://orcid.org/0000-0002-7245-3450</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -3861,9 +4214,19 @@
         <Literal xml:lang="en">memory assay</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000117"/>
+        <IRI>_v1#ADNI_00000086</IRI>
+        <Literal>Lauren M. Wishnie - https://orcid.org/0000-0002-7245-3450</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>_v1#ADNI_00000086</IRI>
         <Literal xml:lang="en">Geriatric Depression memory assay</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000117"/>
+        <IRI>_v1#ADNI_00000087</IRI>
+        <Literal>Lauren M. Wishnie - https://orcid.org/0000-0002-7245-3450</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -3891,9 +4254,19 @@
         <Literal xml:lang="en">Emptiness Geriatric Depression assay</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000117"/>
+        <IRI>_v1#ADNI_00000092</IRI>
+        <Literal>Lauren M. Wishnie - https://orcid.org/0000-0002-7245-3450</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>_v1#ADNI_00000092</IRI>
         <Literal xml:lang="en">boredom Geriatric Depression assay</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000117"/>
+        <IRI>_v1#ADNI_00000093</IRI>
+        <Literal>Lauren M. Wishnie - https://orcid.org/0000-0002-7245-3450</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -3901,9 +4274,19 @@
         <Literal xml:lang="en">good spirits Geriatric Depression assay</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000117"/>
+        <IRI>_v1#ADNI_00000094</IRI>
+        <Literal>Lauren M. Wishnie - https://orcid.org/0000-0002-7245-3450</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>_v1#ADNI_00000094</IRI>
         <Literal xml:lang="en">happiness Geriatric Depression assay</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000117"/>
+        <IRI>_v1#ADNI_00000095</IRI>
+        <Literal>Lauren M. Wishnie - https://orcid.org/0000-0002-7245-3450</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -3911,9 +4294,19 @@
         <Literal xml:lang="en">helplessness Geriatric Depression Assay</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000117"/>
+        <IRI>_v1#ADNI_00000096</IRI>
+        <Literal>Lauren M. Wishnie - https://orcid.org/0000-0002-7245-3450</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>_v1#ADNI_00000096</IRI>
         <Literal xml:lang="en">hopelessness Geriatric Depression assay</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000117"/>
+        <IRI>_v1#ADNI_00000097</IRI>
+        <Literal>Lauren M. Wishnie - https://orcid.org/0000-0002-7245-3450</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -3921,9 +4314,19 @@
         <Literal xml:lang="en">energy Geriatric Depression assay</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000117"/>
+        <IRI>_v1#ADNI_00000098</IRI>
+        <Literal>Lauren M. Wishnie - https://orcid.org/0000-0002-7245-3450</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>_v1#ADNI_00000098</IRI>
         <Literal xml:lang="en">worthlessness Geriatric Depression assay</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000117"/>
+        <IRI>_v1#ADNI_00000099</IRI>
+        <Literal>Lauren M. Wishnie - https://orcid.org/0000-0002-7245-3450</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -3946,9 +4349,19 @@
         <Literal xml:lang="en">APOE allele</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000117"/>
+        <IRI>_v1#ADNI_00000100</IRI>
+        <Literal>Lauren M. Wishnie - https://orcid.org/0000-0002-7245-3450</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>_v1#ADNI_00000100</IRI>
         <Literal xml:lang="en">fear Geriatric Depression assay</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000117"/>
+        <IRI>_v1#ADNI_00000101</IRI>
+        <Literal>Lauren M. Wishnie - https://orcid.org/0000-0002-7245-3450</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -3956,9 +4369,19 @@
         <Literal xml:lang="en">Cognitive Change Index memory assay</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000117"/>
+        <IRI>_v1#ADNI_00000102</IRI>
+        <Literal>Lauren M. Wishnie - https://orcid.org/0000-0002-7245-3450</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>_v1#ADNI_00000102</IRI>
         <Literal xml:lang="en">recalling information Cognitive Change Index assay</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000117"/>
+        <IRI>_v1#ADNI_00000103</IRI>
+        <Literal>Lauren M. Wishnie - https://orcid.org/0000-0002-7245-3450</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -3966,9 +4389,19 @@
         <Literal xml:lang="en">names and faces Cognitive Change Index assay</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000117"/>
+        <IRI>_v1#ADNI_00000104</IRI>
+        <Literal>Lauren M. Wishnie - https://orcid.org/0000-0002-7245-3450</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>_v1#ADNI_00000104</IRI>
         <Literal xml:lang="en">recent events Cognitive Change Index assay</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000117"/>
+        <IRI>_v1#ADNI_00000105</IRI>
+        <Literal>Lauren M. Wishnie - https://orcid.org/0000-0002-7245-3450</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -3976,9 +4409,19 @@
         <Literal xml:lang="en">conversations Cognitive Change Index assay</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000117"/>
+        <IRI>_v1#ADNI_00000106</IRI>
+        <Literal>Lauren M. Wishnie - https://orcid.org/0000-0002-7245-3450</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>_v1#ADNI_00000106</IRI>
         <Literal xml:lang="en">where things are kept Cognitive Change Index assay</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000117"/>
+        <IRI>_v1#ADNI_00000107</IRI>
+        <Literal>Lauren M. Wishnie - https://orcid.org/0000-0002-7245-3450</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -3986,9 +4429,19 @@
         <Literal xml:lang="en">new information Cognitive Change Index assay</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000117"/>
+        <IRI>_v1#ADNI_00000108</IRI>
+        <Literal>Lauren M. Wishnie - https://orcid.org/0000-0002-7245-3450</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>_v1#ADNI_00000108</IRI>
         <Literal xml:lang="en">location of familiar objects Cognitive Change Index assay</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000117"/>
+        <IRI>_v1#ADNI_00000109</IRI>
+        <Literal>Lauren M. Wishnie - https://orcid.org/0000-0002-7245-3450</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -3996,9 +4449,19 @@
         <Literal xml:lang="en">intentions Cognitive Change Index assay</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000117"/>
+        <IRI>_v1#ADNI_00000110</IRI>
+        <Literal>Lauren M. Wishnie - https://orcid.org/0000-0002-7245-3450</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>_v1#ADNI_00000110</IRI>
         <Literal xml:lang="en">remembering without notes and reminders Cognitive Change Index assay</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000117"/>
+        <IRI>_v1#ADNI_00000111</IRI>
+        <Literal>Lauren M. Wishnie - https://orcid.org/0000-0002-7245-3450</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -4006,9 +4469,19 @@
         <Literal xml:lang="en">names of friends and family Cognitive Change Index memory assay</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000117"/>
+        <IRI>_v1#ADNI_00000112</IRI>
+        <Literal>Lauren M. Wishnie - https://orcid.org/0000-0002-7245-3450</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>_v1#ADNI_00000112</IRI>
         <Literal xml:lang="en">other people Cognitive Change Index assay</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000117"/>
+        <IRI>_v1#ADNI_00000113</IRI>
+        <Literal>Lauren M. Wishnie - https://orcid.org/0000-0002-7245-3450</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -4016,9 +4489,19 @@
         <Literal xml:lang="en">age group Cognitive Change Index assay</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000117"/>
+        <IRI>_v1#ADNI_00000114</IRI>
+        <Literal>Lauren M. Wishnie - https://orcid.org/0000-0002-7245-3450</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>_v1#ADNI_00000114</IRI>
         <Literal xml:lang="en">everyday decisions Cognitive Change Index assay</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000117"/>
+        <IRI>_v1#ADNI_00000116</IRI>
+        <Literal>Lauren M. Wishnie - https://orcid.org/0000-0002-7245-3450</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -4026,9 +4509,19 @@
         <Literal xml:lang="en">focus on goals Cognitive Change Index assay</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000117"/>
+        <IRI>_v1#ADNI_00000117</IRI>
+        <Literal>Lauren M. Wishnie - https://orcid.org/0000-0002-7245-3450</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>_v1#ADNI_00000117</IRI>
         <Literal xml:lang="en">shifting activities Cognitive Change Index assay</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000117"/>
+        <IRI>_v1#ADNI_00000118</IRI>
+        <Literal>Lauren M. Wishnie - https://orcid.org/0000-0002-7245-3450</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -4036,9 +4529,19 @@
         <Literal xml:lang="en">organizing activities Cognitive Change Index assay</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000117"/>
+        <IRI>_v1#ADNI_00000119</IRI>
+        <Literal>Lauren M. Wishnie - https://orcid.org/0000-0002-7245-3450</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>_v1#ADNI_00000119</IRI>
         <Literal xml:lang="en">understanding conversations Cognitive Change Index assay</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000117"/>
+        <IRI>_v1#ADNI_00000120</IRI>
+        <Literal>Lauren M. Wishnie - https://orcid.org/0000-0002-7245-3450</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -4046,9 +4549,19 @@
         <Literal xml:lang="en">self expression Cognitive Change Index assay</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000117"/>
+        <IRI>_v1#ADNI_00000121</IRI>
+        <Literal>Lauren M. Wishnie - https://orcid.org/0000-0002-7245-3450</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>_v1#ADNI_00000121</IRI>
         <Literal xml:lang="en">following a story Cognitive Change Index assay</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000117"/>
+        <IRI>_v1#ADNI_00000122</IRI>
+        <Literal>Lauren M. Wishnie - https://orcid.org/0000-0002-7245-3450</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -4061,9 +4574,19 @@
         <Literal xml:lang="en">Cognitive Change Index judgment and problem solving assay</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000117"/>
+        <IRI>_v1#ADNI_00000124</IRI>
+        <Literal>Lauren M. Wishnie - https://orcid.org/0000-0002-7245-3450</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>_v1#ADNI_00000124</IRI>
         <Literal xml:lang="en">Cognitive Change Index orientation assay</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000117"/>
+        <IRI>_v1#ADNI_00000125</IRI>
+        <Literal>Lauren M. Wishnie - https://orcid.org/0000-0002-7245-3450</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -4076,9 +4599,19 @@
         <Literal xml:lang="en">cognitive orientation scalar measurement datum</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000117"/>
+        <IRI>_v1#ADNI_00000127</IRI>
+        <Literal>Lauren M. Wishnie - https://orcid.org/0000-0002-7245-3450</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>_v1#ADNI_00000127</IRI>
         <Literal xml:lang="en">community affairs scalar measurement datum</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000117"/>
+        <IRI>_v1#ADNI_00000128</IRI>
+        <Literal>Lauren M. Wishnie - https://orcid.org/0000-0002-7245-3450</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -4086,9 +4619,19 @@
         <Literal xml:lang="en">memory scalar measurement datum</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000117"/>
+        <IRI>_v1#ADNI_00000129</IRI>
+        <Literal>Lauren M. Wishnie - https://orcid.org/0000-0002-7245-3450</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>_v1#ADNI_00000129</IRI>
         <Literal xml:lang="en">recall scalar measurement datum</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000117"/>
+        <IRI>_v1#ADNI_00000130</IRI>
+        <Literal>Lauren M. Wishnie - https://orcid.org/0000-0002-7245-3450</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -4096,9 +4639,19 @@
         <Literal xml:lang="en">home and hobbies scalar measurement datum</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000117"/>
+        <IRI>_v1#ADNI_00000131</IRI>
+        <Literal>Lauren M. Wishnie - https://orcid.org/0000-0002-7245-3450</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>_v1#ADNI_00000131</IRI>
         <Literal xml:lang="en">judgment and problem solving scalar measurement datum</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000117"/>
+        <IRI>_v1#ADNI_00000132</IRI>
+        <Literal>Lauren M. Wishnie - https://orcid.org/0000-0002-7245-3450</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -4106,9 +4659,19 @@
         <Literal xml:lang="en">executive function scalar measurement datum</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000117"/>
+        <IRI>_v1#ADNI_00000133</IRI>
+        <Literal>Lauren M. Wishnie - https://orcid.org/0000-0002-7245-3450</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>_v1#ADNI_00000133</IRI>
         <Literal xml:lang="en">life satisfaction scalar measurement datum</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000117"/>
+        <IRI>_v1#ADNI_00000134</IRI>
+        <Literal>Lauren M. Wishnie - https://orcid.org/0000-0002-7245-3450</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -4116,9 +4679,19 @@
         <Literal xml:lang="en">Cognitive Change Index orientation datum</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000117"/>
+        <IRI>_v1#ADNI_00000135</IRI>
+        <Literal>Lauren M. Wishnie - https://orcid.org/0000-0002-7245-3450</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>_v1#ADNI_00000135</IRI>
         <Literal xml:lang="en">Cognitive Change Index executive functioning datum</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000117"/>
+        <IRI>_v1#ADNI_00000136</IRI>
+        <Literal>Lauren M. Wishnie - https://orcid.org/0000-0002-7245-3450</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -4126,9 +4699,19 @@
         <Literal xml:lang="en">Cognitive Change Index executive functioning assay</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000117"/>
+        <IRI>_v1#ADNI_00000137</IRI>
+        <Literal>Lauren M. Wishnie - https://orcid.org/0000-0002-7245-3450</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>_v1#ADNI_00000137</IRI>
         <Literal xml:lang="en">shifting activities Cognitive Change Index datum</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000117"/>
+        <IRI>_v1#ADNI_00000138</IRI>
+        <Literal>Lauren M. Wishnie - https://orcid.org/0000-0002-7245-3450</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -4136,9 +4719,19 @@
         <Literal xml:lang="en">self expression Cognitive Change Index datum</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000117"/>
+        <IRI>_v1#ADNI_00000139</IRI>
+        <Literal>Lauren M. Wishnie - https://orcid.org/0000-0002-7245-3450</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>_v1#ADNI_00000139</IRI>
         <Literal xml:lang="en">organizing activities Cognitive Change Index datum</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000117"/>
+        <IRI>_v1#ADNI_00000140</IRI>
+        <Literal>Lauren M. Wishnie - https://orcid.org/0000-0002-7245-3450</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -4146,9 +4739,19 @@
         <Literal xml:lang="en">everyday decisions Cognitive Change Index datum</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000117"/>
+        <IRI>_v1#ADNI_00000141</IRI>
+        <Literal>Lauren M. Wishnie - https://orcid.org/0000-0002-7245-3450</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>_v1#ADNI_00000141</IRI>
         <Literal xml:lang="en">Geriatric Depression Scale home and hobbies datum</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000117"/>
+        <IRI>_v1#ADNI_00000142</IRI>
+        <Literal>Lauren M. Wishnie - https://orcid.org/0000-0002-7245-3450</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -4156,9 +4759,19 @@
         <Literal xml:lang="en">dropped activities and interests Geriatric Depression datum</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000117"/>
+        <IRI>_v1#ADNI_00000143</IRI>
+        <Literal>Lauren M. Wishnie - https://orcid.org/0000-0002-7245-3450</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>_v1#ADNI_00000143</IRI>
         <Literal xml:lang="en">staying at home Geriatric Depression datum</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000117"/>
+        <IRI>_v1#ADNI_00000144</IRI>
+        <Literal>Lauren M. Wishnie - https://orcid.org/0000-0002-7245-3450</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -4166,9 +4779,19 @@
         <Literal xml:lang="en">Cognitive Change Index judgment and problem solving datum</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000117"/>
+        <IRI>_v1#ADNI_00000145</IRI>
+        <Literal>Lauren M. Wishnie - https://orcid.org/0000-0002-7245-3450</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>_v1#ADNI_00000145</IRI>
         <Literal xml:lang="en">evaluant Clinical Dementia Rating judgment and problem solving datum</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000117"/>
+        <IRI>_v1#ADNI_00000146</IRI>
+        <Literal>Lauren M. Wishnie - https://orcid.org/0000-0002-7245-3450</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -4176,9 +4799,19 @@
         <Literal xml:lang="en">study partner Clinical Dementia Rating judgment and problem solving datum</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000117"/>
+        <IRI>_v1#ADNI_00000147</IRI>
+        <Literal>Lauren M. Wishnie - https://orcid.org/0000-0002-7245-3450</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>_v1#ADNI_00000147</IRI>
         <Literal xml:lang="en">Geriatric Depression memory datum</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000117"/>
+        <IRI>_v1#ADNI_00000148</IRI>
+        <Literal>Lauren M. Wishnie - https://orcid.org/0000-0002-7245-3450</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -4191,14 +4824,29 @@
         <Literal xml:lang="en">cognitive functioning scalar measurement datum</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000117"/>
+        <IRI>_v1#ADNI_00000151</IRI>
+        <Literal>Lauren M. Wishnie - https://orcid.org/0000-0002-7245-3450</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>_v1#ADNI_00000151</IRI>
         <Literal xml:lang="en">Geriatric Depression life satisfaction datum</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000117"/>
+        <IRI>_v1#ADNI_00000152</IRI>
+        <Literal>Lauren M. Wishnie - https://orcid.org/0000-0002-7245-3450</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>_v1#ADNI_00000152</IRI>
         <Literal xml:lang="en">emptiness Geriatric Depression datum</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000117"/>
+        <IRI>_v1#ADNI_00000153</IRI>
+        <Literal>Lauren M. Wishnie - https://orcid.org/0000-0002-7245-3450</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
