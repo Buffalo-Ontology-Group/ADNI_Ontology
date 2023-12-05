@@ -109,18 +109,6 @@
         <Literal>1.1.1</Literal>
     </Annotation>
     <Declaration>
-        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000004"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000017"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000023"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000040"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="http://purl.obolibrary.org/obo/CHEBI_24431"/>
     </Declaration>
     <Declaration>
@@ -136,22 +124,49 @@
         <Class IRI="http://purl.obolibrary.org/obo/CL_0000000"/>
     </Declaration>
     <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000081"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="http://purl.obolibrary.org/obo/CL_0000232"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000988"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://purl.obolibrary.org/obo/GENO_0000014"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://purl.obolibrary.org/obo/GO_0003674"/>
+        <Class IRI="http://purl.obolibrary.org/obo/GENO_0000481"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/GENO_0000512"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/GENO_0000897"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://purl.obolibrary.org/obo/GO_0005575"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0007586"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0007610"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://purl.obolibrary.org/obo/GO_0008150"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://purl.obolibrary.org/obo/GO_0010467"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0022600"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0032501"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0032941"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://purl.obolibrary.org/obo/GO_0033326"/>
@@ -217,6 +232,15 @@
         <Class IRI="http://purl.obolibrary.org/obo/OGMS_0000086"/>
     </Declaration>
     <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/OGMS_0000123"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/PATO_0000051"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/PATO_0000117"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="http://purl.obolibrary.org/obo/PATO_0000125"/>
     </Declaration>
     <Declaration>
@@ -226,7 +250,10 @@
         <Class IRI="http://purl.obolibrary.org/obo/PATO_0001018"/>
     </Declaration>
     <Declaration>
-        <Class IRI="http://purl.obolibrary.org/obo/PATO_0001548"/>
+        <Class IRI="http://purl.obolibrary.org/obo/PATO_0001241"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/PATO_0001710"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://purl.obolibrary.org/obo/PR_000000001"/>
@@ -244,6 +271,15 @@
         <Class IRI="http://purl.obolibrary.org/obo/PR_000050567"/>
     </Declaration>
     <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/UBERON_0000463"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/UBERON_0000465"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/UBERON_0001062"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="http://purl.obolibrary.org/obo/UBERON_0006314"/>
     </Declaration>
     <Declaration>
@@ -251,12 +287,6 @@
     </Declaration>
     <Declaration>
         <Class IRI="http://www.ifomis.org/bfo/1.1/snap#Site"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#ADNI_00000155"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#ADNI_000024"/>
     </Declaration>
     <Declaration>
         <Class IRI="_v1#ADNI_00000000"/>
@@ -962,24 +992,116 @@
         </ObjectIntersectionOf>
     </EquivalentClasses>
     <SubClassOf>
-        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000023"/>
-        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000017"/>
+        <Class IRI="http://purl.obolibrary.org/obo/CHEBI_24431"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/snap#http://purl.obolibrary.org/obo/BFO_0000040"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/CHEBI_29016"/>
         <Class IRI="http://purl.obolibrary.org/obo/CHEBI_24431"/>
-        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000040"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/CHMO_0002820"/>
+        <Class IRI="http://purl.obolibrary.org/obo/IAO_0000027"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/CHMO_0002821"/>
+        <Class IRI="http://purl.obolibrary.org/obo/CHMO_0002820"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://purl.obolibrary.org/obo/CL_0000000"/>
-        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000040"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/snap#http://purl.obolibrary.org/obo/BFO_0000040"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="http://purl.obolibrary.org/obo/GO_0003674"/>
-        <Class IRI="http://purl.obolibrary.org/obo/GO_0008150"/>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000081"/>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000988"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000232"/>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000081"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000988"/>
+        <Class IRI="http://purl.obolibrary.org/obo/CL_0000000"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/GENO_0000014"/>
+        <Class IRI="http://purl.obolibrary.org/obo/GENO_0000512"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/GENO_0000481"/>
+        <Class IRI="http://purl.obolibrary.org/obo/GENO_0000897"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/GENO_0000512"/>
+        <Class IRI="http://purl.obolibrary.org/obo/GENO_0000481"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/GENO_0000897"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/snap#GenericallyDependentContinuant"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://purl.obolibrary.org/obo/GO_0005575"/>
-        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000040"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/snap#http://purl.obolibrary.org/obo/BFO_0000040"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0007586"/>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0032501"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0007610"/>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0032501"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0008150"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/span#Process"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0010467"/>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0008150"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0022600"/>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0007586"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0032501"/>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0008150"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0032941"/>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0032501"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0033326"/>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0032941"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0050892"/>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0022600"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/IAO_0000027"/>
+        <Class IRI="http://purl.obolibrary.org/obo/IAO_0000030"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/IAO_0000028"/>
+        <Class IRI="http://purl.obolibrary.org/obo/IAO_0000030"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/IAO_0000030"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/snap#GenericallyDependentContinuant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/IAO_0000032"/>
+        <Class IRI="http://purl.obolibrary.org/obo/IAO_0000109"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/IAO_0000109"/>
+        <Class IRI="http://purl.obolibrary.org/obo/IAO_0000027"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/IAO_0000414"/>
+        <Class IRI="http://purl.obolibrary.org/obo/IAO_0000032"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://purl.obolibrary.org/obo/NPT_0010002"/>
@@ -996,6 +1118,10 @@
     <SubClassOf>
         <Class IRI="http://purl.obolibrary.org/obo/NPT_0011006"/>
         <Class IRI="http://purl.obolibrary.org/obo/OBI_0000970"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/OBI_0000011"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/span#Process"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://purl.obolibrary.org/obo/OBI_0000070"/>
@@ -1015,7 +1141,51 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://purl.obolibrary.org/obo/OBI_0100026"/>
-        <Class IRI="http://purl.obolibrary.org/obo/BFO_0000040"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/snap#http://purl.obolibrary.org/obo/BFO_0000040"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/OGMS_0000015"/>
+        <Class IRI="http://purl.obolibrary.org/obo/OGMS_0000123"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/OGMS_0000073"/>
+        <Class IRI="http://purl.obolibrary.org/obo/OGMS_0000123"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/OGMS_0000086"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/snap#Quality"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/OGMS_0000123"/>
+        <Class IRI="http://purl.obolibrary.org/obo/IAO_0000027"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/PATO_0000051"/>
+        <Class IRI="http://purl.obolibrary.org/obo/PATO_0001018"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/PATO_0000117"/>
+        <Class IRI="http://purl.obolibrary.org/obo/PATO_0000051"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/PATO_0000125"/>
+        <Class IRI="http://purl.obolibrary.org/obo/PATO_0001018"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/PATO_0000918"/>
+        <Class IRI="http://purl.obolibrary.org/obo/PATO_0001710"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/PATO_0001018"/>
+        <Class IRI="http://purl.obolibrary.org/obo/PATO_0001241"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/PATO_0001241"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/snap#Quality"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/PATO_0001710"/>
+        <Class IRI="http://purl.obolibrary.org/obo/PATO_0000117"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://purl.obolibrary.org/obo/PR_000000001"/>
@@ -1032,6 +1202,22 @@
     <SubClassOf>
         <Class IRI="http://purl.obolibrary.org/obo/PR_000050064"/>
         <Class IRI="http://purl.obolibrary.org/obo/PR_000000001"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/UBERON_0000463"/>
+        <Class IRI="http://purl.obolibrary.org/obo/UBERON_0000465"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/UBERON_0000465"/>
+        <Class IRI="http://purl.obolibrary.org/obo/UBERON_0001062"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/UBERON_0001062"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/snap#IndependentContinuant"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.ebi.ac.uk/efo/EFO_0004318"/>
+        <Class IRI="http://purl.obolibrary.org/obo/GO_0007610"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="_v1#ADNI_00000000"/>
@@ -1750,6 +1936,146 @@
         <Class IRI="http://purl.obolibrary.org/obo/NPT_0010002"/>
     </SubClassOf>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/CHEBI_24431</IRI>
+        <Literal>chemical entity</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/CHEBI_29016</IRI>
+        <Literal>arginine</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/CHMO_0002820</IRI>
+        <Literal>concentration</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/CHMO_0002821</IRI>
+        <Literal>mass concentration</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/CL_0000000</IRI>
+        <Literal>cell</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/CL_0000081</IRI>
+        <Literal>blood cell</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/CL_0000232</IRI>
+        <Literal>erythrocyte</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/CL_0000988</IRI>
+        <Literal>hematopoietic cell</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/GENO_0000014</IRI>
+        <Literal>gene allele</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/GENO_0000481</IRI>
+        <Literal>genomic feature</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/GENO_0000512</IRI>
+        <Literal>allele</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/GENO_0000897</IRI>
+        <Literal>genomic entity</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/GO_0005575</IRI>
+        <Literal>cellular component</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/GO_0007586</IRI>
+        <Literal>digestion</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/GO_0007610</IRI>
+        <Literal>behavior</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/GO_0008150</IRI>
+        <Literal>biological process</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/GO_0010467</IRI>
+        <Literal>gene expression</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/GO_0022600</IRI>
+        <Literal>digestive system process</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/GO_0032501</IRI>
+        <Literal>multicellular organismal process</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/GO_0032941</IRI>
+        <Literal>secretion by tissue</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/GO_0033326</IRI>
+        <Literal>cerebrospinal fluid secretion</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/GO_0050892</IRI>
+        <Literal>intestinal absorption</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/IAO_0000027</IRI>
+        <Literal>data item</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/IAO_0000028</IRI>
+        <Literal>symbol</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/IAO_0000030</IRI>
+        <Literal>information content entity</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/IAO_0000032</IRI>
+        <Literal>scalar measurement datum</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/IAO_0000109</IRI>
+        <Literal>measurement datum</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/IAO_0000414</IRI>
+        <Literal>mass measurement datum</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <IRI>http://purl.obolibrary.org/obo/NPT_0010002</IRI>
         <Literal>An assay that measures one or more aspects of an evaluant&apos;s cognitive functioning.</Literal>
@@ -1810,6 +2136,11 @@
         <Literal>cognitive functioning scalar score from composite inputs</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/OBI_0000011</IRI>
+        <Literal>planned process</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <IRI>http://purl.obolibrary.org/obo/OBI_0000070</IRI>
         <Literal>A planned process that has the objective to produce information about a material entity (the evaluant) by examining it.</Literal>
@@ -1861,6 +2192,61 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/OGMS_0000015</IRI>
+        <Literal>clinical history</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/OGMS_0000073</IRI>
+        <Literal>diagnosis</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/OGMS_0000086</IRI>
+        <Literal>syndrome</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/OGMS_0000123</IRI>
+        <Literal>clinical data item</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/PATO_0000051</IRI>
+        <Literal>morphology</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/PATO_0000117</IRI>
+        <Literal>size</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/PATO_0000125</IRI>
+        <Literal>mass</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/PATO_0000918</IRI>
+        <Literal>volume</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/PATO_0001018</IRI>
+        <Literal>physical quality</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/PATO_0001241</IRI>
+        <Literal>physical object quality</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/PATO_0001710</IRI>
+        <Literal>3-D extent</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>http://purl.obolibrary.org/obo/PR_000000001</IRI>
         <Literal>protein</Literal>
     </AnnotationAssertion>
@@ -1885,6 +2271,31 @@
         <Literal>beta-amyloid protein 40 (human)</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/PR_000050567</IRI>
+        <Literal>protein-containing material entity</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/UBERON_0000463</IRI>
+        <Literal>organism substance</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/UBERON_0000465</IRI>
+        <Literal>material anatomical entity</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/UBERON_0001062</IRI>
+        <Literal>anatomical entity</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/UBERON_0006314</IRI>
+        <Literal>bodily fluid</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000117"/>
         <IRI>http://purl.obolibrary.org/obo/ontologies/2021/9/ADNI_Ontology#ADNI_0000000031</IRI>
         <Literal>Lauren M. Wishnie - https://orcid.org/0000-0002-7245-3450</Literal>
@@ -1893,6 +2304,11 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>http://purl.obolibrary.org/obo/ontologies/2021/9/ADNI_Ontology#ADNI_0000000031</IRI>
         <Literal>patient mass measurement datum</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.ebi.ac.uk/efo/EFO_0004318</IRI>
+        <Literal>smoking behavior</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
