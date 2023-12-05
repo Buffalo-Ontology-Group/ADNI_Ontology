@@ -109,6 +109,9 @@
         <Literal>1.1.1</Literal>
     </Annotation>
     <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/CHEBI_15356"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="http://purl.obolibrary.org/obo/CHEBI_24431"/>
     </Declaration>
     <Declaration>
@@ -287,6 +290,198 @@
     </Declaration>
     <Declaration>
         <Class IRI="http://www.ifomis.org/bfo/1.1/snap#Site"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ADNI_00000157"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ADNI_00000158"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ADNI_00000159"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ADNI_00000160"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ADNI_00000161"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ADNI_00000162"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ADNI_00000163"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ADNI_00000164"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ADNI_00000165"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ADNI_00000167"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ADNI_00000168"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ADNI_00000169"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ADNI_00000170"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ADNI_00000173"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ADNI_00000174"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ADNI_00000175"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ADNI_00000176"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ADNI_00000177"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ADNI_00000179"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ADNI_00000180"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ADNI_00000181"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ADNI_00000182"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ADNI_00000183"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ADNI_00000184"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ADNI_00000185"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ADNI_00000186"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ADNI_00000187"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ADNI_00000188"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ADNI_00000189"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ADNI_00000190"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ADNI_00000191"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ADNI_00000192"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ADNI_00000193"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ADNI_00000194"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ADNI_00000195"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ADNI_00000196"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ADNI_00000197"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ADNI_00000198"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ADNI_00000199"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ADNI_00000200"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ADNI_00000201"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ADNI_00000202"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ADNI_00000203"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ADNI_00000204"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ADNI_00000205"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ADNI_00000206"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ADNI_00000207"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ADNI_00000208"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ADNI_00000209"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ADNI_00000210"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ADNI_00000211"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ADNI_00000212"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ADNI_00000213"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ADNI_00000214"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ADNI_00000215"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ADNI_00000216"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ADNI_00000217"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ADNI_00000218"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ADNI_00000219"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ADNI_00000220"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ADNI_00000221"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ADNI_00000222"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ADNI_00000223"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ADNI_00000224"/>
     </Declaration>
     <Declaration>
         <Class IRI="_v1#ADNI_00000000"/>
@@ -992,6 +1187,10 @@
         </ObjectIntersectionOf>
     </EquivalentClasses>
     <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/CHEBI_15356"/>
+        <Class IRI="http://purl.obolibrary.org/obo/CHEBI_24431"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="http://purl.obolibrary.org/obo/CHEBI_24431"/>
         <Class IRI="http://www.ifomis.org/bfo/1.1/snap#http://purl.obolibrary.org/obo/BFO_0000040"/>
     </SubClassOf>
@@ -1218,6 +1417,262 @@
     <SubClassOf>
         <Class IRI="http://www.ebi.ac.uk/efo/EFO_0004318"/>
         <Class IRI="http://purl.obolibrary.org/obo/GO_0007610"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ADNI_00000157"/>
+        <Class IRI="#ADNI_00000164"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ADNI_00000158"/>
+        <Class IRI="#ADNI_00000164"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ADNI_00000159"/>
+        <Class IRI="#ADNI_00000164"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ADNI_00000160"/>
+        <Class IRI="_v1#ADNI_00000000"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ADNI_00000161"/>
+        <Class IRI="#ADNI_00000160"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ADNI_00000162"/>
+        <Class IRI="#ADNI_00000160"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ADNI_00000163"/>
+        <Class IRI="#ADNI_00000160"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ADNI_00000164"/>
+        <Class IRI="_v1#ADNI_00000000"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ADNI_00000165"/>
+        <Class IRI="_v1#ADNI_00000000"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ADNI_00000167"/>
+        <Class IRI="_v1#ADNI_00000000"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ADNI_00000168"/>
+        <Class IRI="_v1#ADNI_00000000"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ADNI_00000169"/>
+        <Class IRI="#ADNI_00000167"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ADNI_00000170"/>
+        <Class IRI="_v1#ADNI_00000000"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ADNI_00000173"/>
+        <Class IRI="_v1#ADNI_00000001"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ADNI_00000174"/>
+        <Class IRI="_v1#ADNI_00000001"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ADNI_00000175"/>
+        <Class IRI="_v1#ADNI_00000001"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ADNI_00000176"/>
+        <Class IRI="_v1#ADNI_00000001"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ADNI_00000177"/>
+        <Class IRI="_v1#ADNI_00000001"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ADNI_00000179"/>
+        <Class IRI="_v1#ADNI_00000002"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ADNI_00000180"/>
+        <Class IRI="_v1#ADNI_00000002"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ADNI_00000181"/>
+        <Class IRI="_v1#ADNI_00000002"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ADNI_00000182"/>
+        <Class IRI="_v1#ADNI_00000002"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ADNI_00000183"/>
+        <Class IRI="_v1#ADNI_000019"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ADNI_00000184"/>
+        <Class IRI="_v1#ADNI_000019"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ADNI_00000185"/>
+        <Class IRI="#ADNI_00000184"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ADNI_00000186"/>
+        <Class IRI="#ADNI_00000184"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ADNI_00000187"/>
+        <Class IRI="_v1#ADNI_000019"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ADNI_00000188"/>
+        <Class IRI="_v1#ADNI_000019"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ADNI_00000189"/>
+        <Class IRI="_v1#ADNI_000019"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ADNI_00000190"/>
+        <Class IRI="_v1#ADNI_000019"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ADNI_00000191"/>
+        <Class IRI="#ADNI_00000190"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ADNI_00000192"/>
+        <Class IRI="#ADNI_00000190"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ADNI_00000193"/>
+        <Class IRI="#ADNI_00000190"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ADNI_00000194"/>
+        <Class IRI="_v1#ADNI_000019"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ADNI_00000195"/>
+        <Class IRI="_v1#ADNI_000019"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ADNI_00000196"/>
+        <Class IRI="_v1#ADNI_000019"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ADNI_00000197"/>
+        <Class IRI="_v1#ADNI_000019"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ADNI_00000198"/>
+        <Class IRI="_v1#ADNI_00000145"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ADNI_00000199"/>
+        <Class IRI="_v1#ADNI_00000145"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ADNI_00000200"/>
+        <Class IRI="_v1#ADNI_00000145"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ADNI_00000201"/>
+        <Class IRI="_v1#ADNI_00000145"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ADNI_00000202"/>
+        <Class IRI="#ADNI_00000198"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ADNI_00000203"/>
+        <Class IRI="#ADNI_00000198"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ADNI_00000204"/>
+        <Class IRI="#ADNI_00000199"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ADNI_00000205"/>
+        <Class IRI="#ADNI_00000199"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ADNI_00000206"/>
+        <Class IRI="#ADNI_00000200"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ADNI_00000207"/>
+        <Class IRI="#ADNI_00000200"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ADNI_00000208"/>
+        <Class IRI="#ADNI_00000201"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ADNI_00000209"/>
+        <Class IRI="#ADNI_00000201"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ADNI_00000210"/>
+        <Class IRI="_v1#ADNI_00000146"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ADNI_00000211"/>
+        <Class IRI="_v1#ADNI_00000146"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ADNI_00000212"/>
+        <Class IRI="_v1#ADNI_00000146"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ADNI_00000213"/>
+        <Class IRI="_v1#ADNI_00000146"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ADNI_00000214"/>
+        <Class IRI="_v1#ADNI_00000146"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ADNI_00000215"/>
+        <Class IRI="_v1#ADNI_00000146"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ADNI_00000216"/>
+        <Class IRI="_v1#ADNI_000020"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ADNI_00000217"/>
+        <Class IRI="#ADNI_00000216"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ADNI_00000218"/>
+        <Class IRI="#ADNI_00000216"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ADNI_00000219"/>
+        <Class IRI="#ADNI_00000216"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ADNI_00000220"/>
+        <Class IRI="#ADNI_00000216"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ADNI_00000221"/>
+        <Class IRI="#ADNI_00000216"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ADNI_00000222"/>
+        <Class IRI="#ADNI_00000216"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ADNI_00000223"/>
+        <Class IRI="#ADNI_00000216"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ADNI_00000224"/>
+        <Class IRI="#ADNI_00000216"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="_v1#ADNI_00000000"/>
@@ -1937,6 +2392,11 @@
     </SubClassOf>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/CHEBI_15356</IRI>
+        <Literal>cysteine</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>http://purl.obolibrary.org/obo/CHEBI_24431</IRI>
         <Literal>chemical entity</Literal>
     </AnnotationAssertion>
@@ -2359,6 +2819,326 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#ADNI_00000091</IRI>
         <Literal xml:lang="en">Most people better off Geriatric Depression Assay</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#ADNI_00000157</IRI>
+        <Literal xml:lang="en">still working Clinical Dementia Rating datum</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#ADNI_00000158</IRI>
+        <Literal xml:lang="en">retirement decision Clinical Dementia Rating datum</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#ADNI_00000159</IRI>
+        <Literal xml:lang="en">job difficulty Clinical Dementia Rating datum</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#ADNI_00000160</IRI>
+        <Literal xml:lang="en">driving Clinical Dementia Rating datum</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#ADNI_00000161</IRI>
+        <Literal xml:lang="en">past driving Clinical Dementia Rating datum</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#ADNI_00000162</IRI>
+        <Literal xml:lang="en">current driving Clinical Dementia Rating datum</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#ADNI_00000163</IRI>
+        <Literal xml:lang="en">driving risks Clinical Dementia Rating datum</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#ADNI_00000164</IRI>
+        <Literal xml:lang="en">occupation Clinical Dementia Rating datum</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#ADNI_00000165</IRI>
+        <Literal xml:lang="en">shopping Clinical Dementia Rating datum</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#ADNI_00000167</IRI>
+        <Literal xml:lang="en">social functions Clinical Dementia Rating datum</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#ADNI_00000168</IRI>
+        <Literal xml:lang="en">casual observer Clinical Dementia Rating datum</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#ADNI_00000169</IRI>
+        <Literal xml:lang="en">social functions in nursing home Clinical Dementia Rating datum</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#ADNI_00000170</IRI>
+        <Literal xml:lang="en">adequate information Clinical Dementia Rating datum</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#ADNI_00000173</IRI>
+        <Literal xml:lang="en">household chore changes Clinical Dementia Rating datum</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#ADNI_00000174</IRI>
+        <Literal xml:lang="en">remaining household skills Clinical Dementia Rating datum</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#ADNI_00000175</IRI>
+        <Literal xml:lang="en">hobby changes Clinical Dementia Rating datum</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#ADNI_00000176</IRI>
+        <Literal xml:lang="en">remaining hobby skills Clinical Dementia Rating datum</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#ADNI_00000177</IRI>
+        <Literal xml:lang="en">nursing home lost skills Clinical Dementia Rating datum</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#ADNI_00000179</IRI>
+        <Literal xml:lang="en">dressing Clinical Dementia Rating datum</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#ADNI_00000180</IRI>
+        <Literal xml:lang="en">washing and grooming Clinical Dementia Rating datum</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#ADNI_00000181</IRI>
+        <Literal xml:lang="en">eating habits Clinical Dementia Rating datum</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#ADNI_00000182</IRI>
+        <Literal xml:lang="en">sphincter control Clinical Dementia Rating datum</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#ADNI_00000183</IRI>
+        <Literal xml:lang="en">memory or thinking problems Clinical Dementia Rating datum</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#ADNI_00000184</IRI>
+        <Literal xml:lang="en">memory of recent experiences Clinical Dementia Rating datum</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#ADNI_00000185</IRI>
+        <Literal xml:lang="en">within one week recent experiences Clinical Dementia Rating datum</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#ADNI_00000186</IRI>
+        <Literal xml:lang="en">within one month Clinical Dementia Rating datum</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#ADNI_00000187</IRI>
+        <Literal xml:lang="en">memory of a name and address Clinical Dementia Rating datum</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#ADNI_00000188</IRI>
+        <Literal xml:lang="en">memory of birthday Clinical Dementia Rating datum</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#ADNI_00000189</IRI>
+        <Literal xml:lang="en">memory of birthplace Clinical Dementia Rating datum</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#ADNI_00000190</IRI>
+        <Literal xml:lang="en">memory of last school attended Clinical Dementia Rating datum</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#ADNI_00000191</IRI>
+        <Literal xml:lang="en">school name Clinical Dementia Rating datum</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#ADNI_00000192</IRI>
+        <Literal xml:lang="en">school location Clinical Dementia Rating datum</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#ADNI_00000193</IRI>
+        <Literal xml:lang="en">school grade Clinical Dementia Rating datum</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#ADNI_00000194</IRI>
+        <Literal xml:lang="en">memory of main occupation Clinical Dementia Rating datum</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#ADNI_00000195</IRI>
+        <Literal xml:lang="en">memory of last major occupation Clinical Dementia Rating datum</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#ADNI_00000196</IRI>
+        <Literal xml:lang="en">memory of retirement date Clinical Dementia Rating datum</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#ADNI_00000197</IRI>
+        <Literal xml:lang="en">memory of retirement reason Clinical Dementia Rating datum</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#ADNI_00000198</IRI>
+        <Literal xml:lang="en">similarities evaluant Clinical Dementia Rating datum</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#ADNI_00000199</IRI>
+        <Literal xml:lang="en">differences evaluant Clinical Dementia Rating datum</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#ADNI_00000200</IRI>
+        <Literal xml:lang="en">calculations evaluant Clinical Dementia Rating datum</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#ADNI_00000201</IRI>
+        <Literal xml:lang="en">judgment evaluant Clinical Dementia Rating datum</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#ADNI_00000202</IRI>
+        <Literal xml:lang="en">turnip and cauliflower Clinical Dementia Rating datum</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#ADNI_00000203</IRI>
+        <Literal xml:lang="en">desk and bookcase Clinical Dementia Rating datum</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#ADNI_00000204</IRI>
+        <Literal xml:lang="en">lie and mistake Clinical Dementia Rating datum</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#ADNI_00000205</IRI>
+        <Literal xml:lang="en">river and canal Clinical Dementia Rating datum</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#ADNI_00000206</IRI>
+        <Literal xml:lang="en">money Clinical Dementia Rating datum</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#ADNI_00000207</IRI>
+        <Literal xml:lang="en">subtraction Clinical Dementia Rating datum</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#ADNI_00000208</IRI>
+        <Literal xml:lang="en">friend in a strange city Clinical Dementia Rating datum</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#ADNI_00000209</IRI>
+        <Literal xml:lang="en">reason for examination Clinical Dementia Rating datum</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#ADNI_00000210</IRI>
+        <Literal xml:lang="en">problem solving study partner Clinical Dementia Rating datum</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#ADNI_00000211</IRI>
+        <Literal xml:lang="en">small sums of money study partner Clinical Dementia Rating datum</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#ADNI_00000212</IRI>
+        <Literal xml:lang="en">business and financial transactions study partner Clinical Dementia Rating datum</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#ADNI_00000213</IRI>
+        <Literal xml:lang="en">household emergency study partner Clinical Dementia Rating datum</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#ADNI_00000214</IRI>
+        <Literal xml:lang="en">situational understanding study partner Clinical Dementia Rating datum</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#ADNI_00000215</IRI>
+        <Literal xml:lang="en">social behavior study partner Clinical Dementia Rating datum</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#ADNI_00000216</IRI>
+        <Literal xml:lang="en">study partner Clinical Dementia Rating orientation datum</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#ADNI_00000217</IRI>
+        <Literal xml:lang="en">date study partner Clinical Dementia Rating datum</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#ADNI_00000218</IRI>
+        <Literal xml:lang="en">month study partner Clinical Dementia Rating datum</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#ADNI_00000219</IRI>
+        <Literal xml:lang="en">year study partner Clinical Dementia Rating datum</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#ADNI_00000220</IRI>
+        <Literal xml:lang="en">day of the week study partner Clinical Dementia Rating datum</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#ADNI_00000221</IRI>
+        <Literal xml:lang="en">time relationships study partner Clinical Dementia Rating datum</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#ADNI_00000222</IRI>
+        <Literal xml:lang="en">familiar streets study partner Clinical Dementia Rating datum</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#ADNI_00000223</IRI>
+        <Literal xml:lang="en">navigation outside neighborhood Clinical Dementia Rating datum</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#ADNI_00000224</IRI>
+        <Literal xml:lang="en">navigation indoors Clinical Dementia Rating datum</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
