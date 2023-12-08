@@ -607,9 +607,6 @@
         <Class IRI="_v1#ADNI_00000012"/>
     </Declaration>
     <Declaration>
-        <Class IRI="_v1#ADNI_00000013"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="_v1#ADNI_00000014"/>
     </Declaration>
     <Declaration>
@@ -1935,10 +1932,6 @@
     <SubClassOf>
         <Class IRI="_v1#ADNI_00000012"/>
         <Class IRI="_v1#ADNI_00000036"/>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="_v1#ADNI_00000013"/>
-        <Class IRI="_v1#ADNI_00000023"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="_v1#ADNI_00000014"/>
@@ -3431,7 +3424,7 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#ADNI_00000198</IRI>
-        <Literal xml:lang="en">similarities evaluant Clinical Dementia Rating datum</Literal>
+        <Literal xml:lang="en">similarities subject Clinical Dementia Rating datum</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000117"/>
@@ -3441,7 +3434,7 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#ADNI_00000199</IRI>
-        <Literal xml:lang="en">differences evaluant Clinical Dementia Rating datum</Literal>
+        <Literal xml:lang="en">differences subject Clinical Dementia Rating datum</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000117"/>
@@ -3451,7 +3444,7 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#ADNI_00000200</IRI>
-        <Literal xml:lang="en">calculations evaluant Clinical Dementia Rating datum</Literal>
+        <Literal xml:lang="en">calculations subject Clinical Dementia Rating datum</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000117"/>
@@ -3461,7 +3454,7 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#ADNI_00000201</IRI>
-        <Literal xml:lang="en">judgment evaluant Clinical Dementia Rating datum</Literal>
+        <Literal xml:lang="en">judgment subject Clinical Dementia Rating datum</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000117"/>
@@ -3941,7 +3934,7 @@
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <IRI>#ADNI_00000252</IRI>
-        <Literal>an evaluant Clinical Dementia Rating orientation assay that measures some participant&apos;s knowledge of the identity of their study partner.</Literal>
+        <Literal>an evaluant Clinical Dementia Rating orientation assay that measures, from the researcher&apos;s perspective, some participant&apos;s knowledge of the identity of their study partner.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000117"/>
@@ -4036,7 +4029,7 @@
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <IRI>_v1#ADNI_00000007</IRI>
-        <Literal>an evaluant Clinical Dementia Rating orientation assay that measures some participant&apos;s knowledge of the day of the week on which the assay is taking place.</Literal>
+        <Literal>an evaluant Clinical Dementia Rating orientation assay that measures some participant&apos;s knowledge of the day of the week that the assay is taking place.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000117"/>
@@ -4051,7 +4044,7 @@
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <IRI>_v1#ADNI_00000008</IRI>
-        <Literal>an evaluant Clinical Dementia Rating orientation assay that measures some participant&apos;s knowledge of the month during which the assay is taking place.</Literal>
+        <Literal>an evaluant Clinical Dementia Rating orientation assay that measures some participant&apos;s knowledge of the month that the assay is taking place.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000117"/>
@@ -4066,7 +4059,7 @@
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <IRI>_v1#ADNI_00000009</IRI>
-        <Literal>an evaluant Clinical Dementia Rating orientation assay that measures some participant&apos;s knowledge of the year during which the assay is taking place.</Literal>
+        <Literal>an evaluant Clinical Dementia Rating orientation assay that measures some participant&apos;s knowledge of the year that the assay is taking place.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000117"/>
@@ -4125,16 +4118,6 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000117"/>
-        <IRI>_v1#ADNI_00000013</IRI>
-        <Literal>Lauren M. Wishnie - https://orcid.org/0000-0002-7245-3450</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>_v1#ADNI_00000013</IRI>
-        <Literal xml:lang="en">recognition study partner Clinical Dementia Rating assay</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000117"/>
         <IRI>_v1#ADNI_00000014</IRI>
         <Literal>Lauren M. Wishnie - https://orcid.org/0000-0002-7245-3450</Literal>
     </AnnotationAssertion>
@@ -4151,7 +4134,7 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>_v1#ADNI_00000015</IRI>
-        <Literal xml:lang="en">similarities evaluant Clinical Dementia Rating assay</Literal>
+        <Literal xml:lang="en">similarities subject Clinical Dementia Rating assay</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000117"/>
@@ -4161,7 +4144,7 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>_v1#ADNI_00000016</IRI>
-        <Literal xml:lang="en">differences evaluant Clinical Dementia Rating assay</Literal>
+        <Literal xml:lang="en">differences subject Clinical Dementia Rating assay</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000117"/>
@@ -4171,7 +4154,7 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>_v1#ADNI_00000017</IRI>
-        <Literal xml:lang="en">calculations evaluant Clinical Dementia Rating assay</Literal>
+        <Literal xml:lang="en">calculations subject Clinical Dementia Rating assay</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -4196,7 +4179,7 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>_v1#ADNI_00000020</IRI>
-        <Literal xml:lang="en">judgment evaluant Clinical Dementia Rating assay</Literal>
+        <Literal xml:lang="en">judgment subject Clinical Dementia Rating assay</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
@@ -4249,6 +4232,11 @@
         <Literal xml:lang="en">study partner Clinical Dementia Rating orientation assay</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>_v1#ADNI_00000024</IRI>
+        <Literal>a study partner Clinical Dementia Rating orientation assay that measures the study partner&apos;s perception of the participant&apos;s knowledge of the date that the assay is taking place.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000117"/>
         <IRI>_v1#ADNI_00000024</IRI>
         <Literal>Lauren M. Wishnie - https://orcid.org/0000-0002-7245-3450</Literal>
@@ -4257,6 +4245,11 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>_v1#ADNI_00000024</IRI>
         <Literal xml:lang="en">date study partner Clinical Dementia Rating assay</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>_v1#ADNI_00000025</IRI>
+        <Literal>a study partner Clinical Dementia Rating orientation assay that measures the study partner&apos;s perception of the participant&apos;s knowledge of the month that the assay is taking place.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000117"/>
@@ -4269,6 +4262,11 @@
         <Literal xml:lang="en">month study partner Clinical Dementia Rating assay</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>_v1#ADNI_00000031</IRI>
+        <Literal>a study partner Clinical Dementia Rating orientation assay that measures the study partner&apos;s perception of the participant&apos;s knowledge of the year that the assay is taking place.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000117"/>
         <IRI>_v1#ADNI_00000031</IRI>
         <Literal>Lauren M. Wishnie - https://orcid.org/0000-0002-7245-3450</Literal>
@@ -4279,6 +4277,11 @@
         <Literal xml:lang="en">year study partner Clinical Dementia Rating assay</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>_v1#ADNI_00000032</IRI>
+        <Literal>a study partner Clinical Dementia Rating orientation assay that measures the study partner&apos;s perception of the participant&apos;s knowledge of the day of the week that the assay is taking place.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000117"/>
         <IRI>_v1#ADNI_00000032</IRI>
         <Literal>Lauren M. Wishnie - https://orcid.org/0000-0002-7245-3450</Literal>
@@ -4287,6 +4290,11 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>_v1#ADNI_00000032</IRI>
         <Literal xml:lang="en">day study partner Clinical Dementia Rating assay</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>_v1#ADNI_00000033</IRI>
+        <Literal>a study partner Clinical Dementia Rating orientation assay that measures the study partner&apos;s perception of the participant&apos;s knowledge of the time that the assay is taking place.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000117"/>
@@ -4331,7 +4339,7 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>_v1#ADNI_00000036</IRI>
-        <Literal xml:lang="en">evaluant Clinical Dementia Rating orientation assay</Literal>
+        <Literal xml:lang="en">subject Clinical Dementia Rating orientation assay</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000117"/>
@@ -4341,7 +4349,7 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>_v1#ADNI_00000037</IRI>
-        <Literal xml:lang="en">evaluant Clinical Dementia Rating memory assay</Literal>
+        <Literal xml:lang="en">subject Clinical Dementia Rating memory assay</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000117"/>
@@ -4351,7 +4359,7 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>_v1#ADNI_00000038</IRI>
-        <Literal xml:lang="en">evaluant Clinical Dementia Rating judgment and problem solving assay</Literal>
+        <Literal xml:lang="en">subject Clinical Dementia Rating judgment and problem solving assay</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000117"/>
@@ -4647,6 +4655,11 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>_v1#ADNI_00000086</IRI>
         <Literal xml:lang="en">Geriatric Depression memory assay</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>_v1#ADNI_00000087</IRI>
+        <Literal>a cognitive functioning assay that assesses the degree to which a participant is satisfied with their life. *ehhh</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000117"/>
@@ -4999,6 +5012,11 @@
         <Literal xml:lang="en">Cognitive Change Index judgment and problem solving assay</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>_v1#ADNI_00000124</IRI>
+        <Literal>a cognitive orientation assay that is part of a Cognitive Change Index assay.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000117"/>
         <IRI>_v1#ADNI_00000124</IRI>
         <Literal>Lauren M. Wishnie - https://orcid.org/0000-0002-7245-3450</Literal>
@@ -5216,7 +5234,7 @@
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>_v1#ADNI_00000145</IRI>
-        <Literal xml:lang="en">evaluant Clinical Dementia Rating judgment and problem solving datum</Literal>
+        <Literal xml:lang="en">subject Clinical Dementia Rating judgment and problem solving datum</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000117"/>
@@ -5887,6 +5905,11 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>_v1#ADNI_000055</IRI>
         <Literal xml:lang="en">Clinical Dementia Rating assay</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>_v1#ADNI_000056</IRI>
+        <Literal>a cognitive functioning assay that assesses a participant&apos;s perception of whether and how their cognitive abilities have changed.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000117"/>
