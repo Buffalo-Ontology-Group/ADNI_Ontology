@@ -190,10 +190,25 @@
         <Class IRI="http://purl.obolibrary.org/obo/IAO_0000032"/>
     </Declaration>
     <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/IAO_0000100"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="http://purl.obolibrary.org/obo/IAO_0000109"/>
     </Declaration>
     <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/IAO_0000140"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="http://purl.obolibrary.org/obo/IAO_0000414"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/MRIO_0000507"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/MRIO_0000623"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/MRIO_0000716"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://purl.obolibrary.org/obo/NPT_0010002"/>
@@ -211,6 +226,9 @@
         <Class IRI="http://purl.obolibrary.org/obo/OBI_0000011"/>
     </Declaration>
     <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/OBI_0000047"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="http://purl.obolibrary.org/obo/OBI_0000070"/>
     </Declaration>
     <Declaration>
@@ -220,10 +238,16 @@
         <Class IRI="http://purl.obolibrary.org/obo/OBI_0000984"/>
     </Declaration>
     <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/OBI_0001879"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="http://purl.obolibrary.org/obo/OBI_0002987"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://purl.obolibrary.org/obo/OBI_0100026"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/OBI_0200000"/>
     </Declaration>
     <Declaration>
         <Class IRI="http://purl.obolibrary.org/obo/OGMS_0000015"/>
@@ -572,6 +596,18 @@
     </Declaration>
     <Declaration>
         <Class IRI="#ADNI_00000254"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ADNI_00000255"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ADNI_00000256"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ADNI_00000257"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ADNI_00000258"/>
     </Declaration>
     <Declaration>
         <Class IRI="_v1#ADNI_00000000"/>
@@ -991,10 +1027,16 @@
         <Class IRI="_v1#ADNI_000016"/>
     </Declaration>
     <Declaration>
+        <Class IRI="_v1#ADNI_000018"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="_v1#ADNI_000019"/>
     </Declaration>
     <Declaration>
         <Class IRI="_v1#ADNI_000020"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="_v1#ADNI_000024"/>
     </Declaration>
     <Declaration>
         <Class IRI="_v1#ADNI_000025"/>
@@ -1172,12 +1214,6 @@
     </Declaration>
     <Declaration>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="_v1#ADNI_000024"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="_v1#ADNI_000018"/>
     </Declaration>
     <EquivalentClasses>
         <Class IRI="_v1#ADNI_000001"/>
@@ -1382,12 +1418,32 @@
         <Class IRI="http://purl.obolibrary.org/obo/IAO_0000109"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/IAO_0000100"/>
+        <Class IRI="http://purl.obolibrary.org/obo/IAO_0000027"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="http://purl.obolibrary.org/obo/IAO_0000109"/>
+        <Class IRI="http://purl.obolibrary.org/obo/IAO_0000027"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/IAO_0000140"/>
         <Class IRI="http://purl.obolibrary.org/obo/IAO_0000027"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://purl.obolibrary.org/obo/IAO_0000414"/>
         <Class IRI="http://purl.obolibrary.org/obo/IAO_0000032"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/MRIO_0000507"/>
+        <Class IRI="http://purl.obolibrary.org/obo/OBI_0200000"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/MRIO_0000623"/>
+        <Class IRI="http://purl.obolibrary.org/obo/IAO_0000100"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/MRIO_0000716"/>
+        <Class IRI="http://purl.obolibrary.org/obo/MRIO_0000623"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://purl.obolibrary.org/obo/NPT_0010002"/>
@@ -1410,6 +1466,10 @@
         <Class IRI="http://www.ifomis.org/bfo/1.1/span#Process"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/OBI_0000047"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/snap#http://purl.obolibrary.org/obo/BFO_0000040"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="http://purl.obolibrary.org/obo/OBI_0000070"/>
         <Class IRI="http://purl.obolibrary.org/obo/OBI_0000011"/>
     </SubClassOf>
@@ -1422,12 +1482,20 @@
         <Class IRI="http://purl.obolibrary.org/obo/IAO_0000109"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/OBI_0001879"/>
+        <Class IRI="http://purl.obolibrary.org/obo/OBI_0000047"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="http://purl.obolibrary.org/obo/OBI_0002987"/>
         <Class IRI="http://purl.obolibrary.org/obo/OBI_0000070"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://purl.obolibrary.org/obo/OBI_0100026"/>
         <Class IRI="http://www.ifomis.org/bfo/1.1/snap#http://purl.obolibrary.org/obo/BFO_0000040"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/OBI_0200000"/>
+        <Class IRI="http://purl.obolibrary.org/obo/OBI_0000011"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://purl.obolibrary.org/obo/OGMS_0000015"/>
@@ -1887,6 +1955,22 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#ADNI_00000254"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/snap#Role"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ADNI_00000255"/>
+        <Class IRI="http://purl.obolibrary.org/obo/IAO_0000140"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ADNI_00000256"/>
+        <Class IRI="http://purl.obolibrary.org/obo/MRIO_0000507"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ADNI_00000257"/>
+        <Class IRI="http://purl.obolibrary.org/obo/MRIO_0000716"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ADNI_00000258"/>
         <Class IRI="http://www.ifomis.org/bfo/1.1/snap#Role"/>
     </SubClassOf>
     <SubClassOf>
@@ -2738,6 +2822,11 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/IAO_0000100</IRI>
+        <Literal>data set</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>http://purl.obolibrary.org/obo/IAO_0000109</IRI>
         <Literal>measurement datum</Literal>
     </AnnotationAssertion>
@@ -2752,6 +2841,16 @@
         <Literal>term editor</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>http://purl.obolibrary.org/obo/IAO_0000140</IRI>
+        <Literal>A settings datum is a datum that denotes some configuration of an instrument.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/IAO_0000140</IRI>
+        <Literal>setting datum</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000117"/>
         <IRI>http://purl.obolibrary.org/obo/IAO_0000414</IRI>
         <Literal>Lauren M. Wishnie - https://orcid.org/0000-0002-7245-3450</Literal>
@@ -2760,6 +2859,26 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>http://purl.obolibrary.org/obo/IAO_0000414</IRI>
         <Literal>mass measurement datum</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>http://purl.obolibrary.org/obo/MRIO_0000507</IRI>
+        <Literal>The process of deriving a data item from an image data set using computer algorithms. The produced data item can be an image data set, data measurement, or any other data item.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/MRIO_0000507</IRI>
+        <Literal>image data set analysis</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/MRIO_0000623</IRI>
+        <Literal>image data set</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/MRIO_0000716</IRI>
+        <Literal>computed image data set</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
@@ -2827,6 +2946,11 @@
         <Literal>planned process</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/OBI_0000047</IRI>
+        <Literal>processed material</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <IRI>http://purl.obolibrary.org/obo/OBI_0000070</IRI>
         <Literal>A planned process that has the objective to produce information about a material entity (the evaluant) by examining it.</Literal>
@@ -2857,6 +2981,11 @@
         <Literal>dose</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/OBI_0001879</IRI>
+        <Literal>reagent</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <IRI>http://purl.obolibrary.org/obo/OBI_0002987</IRI>
         <Literal>An imaging assay in which positron-emitting radionuclides are used to visualize functional processes of an input material entity.</Literal>
@@ -2875,6 +3004,16 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>http://purl.obolibrary.org/obo/OBI_0100026</IRI>
         <Literal>organism</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <IRI>http://purl.obolibrary.org/obo/OBI_0200000</IRI>
+        <Literal>A planned process that produces output data from input data.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/OBI_0200000</IRI>
+        <Literal>data transformation</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -3955,6 +4094,26 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#ADNI_00000254</IRI>
         <Literal xml:lang="en">study partner role</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#ADNI_00000255</IRI>
+        <Literal xml:lang="en">positron emission tomography machine setting datum</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#ADNI_00000256</IRI>
+        <Literal xml:lang="en">positron emission tomography image data set analysis</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#ADNI_00000257</IRI>
+        <Literal xml:lang="en">positron emission tomography image data set</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#ADNI_00000258</IRI>
+        <Literal xml:lang="en">researcher role</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
