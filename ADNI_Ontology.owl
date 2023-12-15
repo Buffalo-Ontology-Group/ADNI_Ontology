@@ -232,6 +232,9 @@
         <Class IRI="http://purl.obolibrary.org/obo/OBI_0000070"/>
     </Declaration>
     <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/OBI_0000097"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="http://purl.obolibrary.org/obo/OBI_0000970"/>
     </Declaration>
     <Declaration>
@@ -592,9 +595,6 @@
         <Class IRI="#ADNI_00000252"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#ADNI_00000253"/>
-    </Declaration>
-    <Declaration>
         <Class IRI="#ADNI_00000254"/>
     </Declaration>
     <Declaration>
@@ -607,7 +607,10 @@
         <Class IRI="#ADNI_00000257"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#ADNI_00000258"/>
+        <Class IRI="#http://purl.obolibrary.org/obo/OBI_0000067"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#http://purl.obolibrary.org/obo/OBI_0000202"/>
     </Declaration>
     <Declaration>
         <Class IRI="_v1#ADNI_00000000"/>
@@ -1474,6 +1477,10 @@
         <Class IRI="http://purl.obolibrary.org/obo/OBI_0000011"/>
     </SubClassOf>
     <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/OBI_0000097"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/snap#Role"/>
+    </SubClassOf>
+    <SubClassOf>
         <Class IRI="http://purl.obolibrary.org/obo/OBI_0000970"/>
         <Class IRI="http://purl.obolibrary.org/obo/IAO_0000032"/>
     </SubClassOf>
@@ -1950,10 +1957,6 @@
         <Class IRI="_v1#ADNI_00000036"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#ADNI_00000253"/>
-        <Class IRI="http://www.ifomis.org/bfo/1.1/snap#Role"/>
-    </SubClassOf>
-    <SubClassOf>
         <Class IRI="#ADNI_00000254"/>
         <Class IRI="http://www.ifomis.org/bfo/1.1/snap#Role"/>
     </SubClassOf>
@@ -1970,7 +1973,11 @@
         <Class IRI="http://purl.obolibrary.org/obo/MRIO_0000716"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#ADNI_00000258"/>
+        <Class IRI="#http://purl.obolibrary.org/obo/OBI_0000067"/>
+        <Class IRI="http://www.ifomis.org/bfo/1.1/snap#Role"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#http://purl.obolibrary.org/obo/OBI_0000202"/>
         <Class IRI="http://www.ifomis.org/bfo/1.1/snap#Role"/>
     </SubClassOf>
     <SubClassOf>
@@ -2959,6 +2966,11 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>http://purl.obolibrary.org/obo/OBI_0000070</IRI>
         <Literal>assay</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/OBI_0000097</IRI>
+        <Literal>participant under investigation role</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
@@ -4087,11 +4099,6 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#ADNI_00000253</IRI>
-        <Literal xml:lang="en">subject role</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#ADNI_00000254</IRI>
         <Literal xml:lang="en">study partner role</Literal>
     </AnnotationAssertion>
@@ -4112,13 +4119,18 @@
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#ADNI_00000258</IRI>
-        <Literal xml:lang="en">researcher role</Literal>
+        <IRI>#ADNI_000019</IRI>
+        <Literal>Clinical Dementia Rating memory datum</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>#ADNI_000019</IRI>
-        <Literal>Clinical Dementia Rating memory datum</Literal>
+        <IRI>#http://purl.obolibrary.org/obo/OBI_0000067</IRI>
+        <Literal xml:lang="en">evaluant role</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#http://purl.obolibrary.org/obo/OBI_0000202</IRI>
+        <Literal xml:lang="en">investigation agent role</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000117"/>
