@@ -607,6 +607,9 @@
         <Class IRI="#ADNI_00000257"/>
     </Declaration>
     <Declaration>
+        <Class IRI="#ADNI_00000260"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="#http://purl.obolibrary.org/obo/OBI_0000067"/>
     </Declaration>
     <Declaration>
@@ -4116,6 +4119,11 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#ADNI_00000257</IRI>
         <Literal xml:lang="en">positron emission tomography image data set</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#ADNI_00000260</IRI>
+        <Literal xml:lang="en">test for adni mini only</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
