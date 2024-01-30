@@ -244,6 +244,15 @@
         <Class IRI="http://purl.obolibrary.org/obo/OBI_0000984"/>
     </Declaration>
     <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/OBI_0001169"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/OBI_0001305"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://purl.obolibrary.org/obo/OBI_0001404"/>
+    </Declaration>
+    <Declaration>
         <Class IRI="http://purl.obolibrary.org/obo/OBI_0001879"/>
     </Declaration>
     <Declaration>
@@ -668,6 +677,111 @@
     </Declaration>
     <Declaration>
         <Class IRI="#ADNI_00000366"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ADNI_00000367"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ADNI_00000368"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ADNI_00000372"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ADNI_00000385"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ADNI_00000386"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ADNI_00000443"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ADNI_00000444"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ADNI_00000445"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ADNI_00000446"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ADNI_00000447"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ADNI_00000448"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ADNI_00000449"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ADNI_00000450"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ADNI_00000451"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ADNI_00000452"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ADNI_00000453"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ADNI_00000454"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ADNI_00000455"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ADNI_00000456"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ADNI_00000457"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ADNI_00000458"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ADNI_00000459"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ADNI_00000460"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ADNI_00000461"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ADNI_00000462"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ADNI_00000463"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ADNI_00000464"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ADNI_00000465"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ADNI_00000466"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ADNI_00000467"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ADNI_00000468"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ADNI_00000469"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ADNI_00000470"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ADNI_00000471"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ADNI_00000472"/>
     </Declaration>
     <Declaration>
         <Class IRI="#http://purl.obolibrary.org/obo/OBI_0000067"/>
@@ -1249,6 +1363,375 @@
         <ObjectProperty IRI="_v1#ADNI_00000066"/>
     </Declaration>
     <Declaration>
+        <NamedIndividual IRI=":10"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI=":101"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI=":102"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI=":103"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI=":106"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI=":107"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI=":108"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI=":109"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI=":110"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI=":111"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI=":112"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI=":113"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI=":116"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI=":118"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI=":120"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI=":123"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI=":125"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI=":126"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI=":128"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI=":129"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI=":130"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI=":138"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI=":139"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI=":14"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI=":141"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI=":142"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI=":147"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI=":15"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI=":150"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI=":155"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI=":156"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI=":159"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI=":16"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI=":160"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI=":161"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI=":162"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI=":166"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI=":168"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI=":169"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI=":171"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI=":173"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI=":176"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI=":177"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI=":178"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI=":179"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI=":182"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI=":183"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI=":184"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI=":186"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI=":187"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI=":188"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI=":190"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI=":194"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI=":195"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI=":196"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI=":2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI=":200"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI=":204"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI=":205"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI=":21"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI=":210"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI=":23"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI=":29"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI=":3"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI=":33"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI=":35"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI=":38"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI=":4"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI=":40"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI=":41"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI=":42"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI=":43"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI=":44"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI=":45"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI=":47"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI=":5"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI=":50"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI=":51"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI=":5267"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI=":5269"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI=":5273"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI=":5275"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI=":5277"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI=":5278"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI=":5279"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI=":5280"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI=":5282"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI=":53"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI=":54"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI=":55"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI=":56"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI=":57"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI=":58"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI=":59"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI=":6"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI=":60"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI=":61"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI=":66"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI=":67"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI=":68"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI=":69"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI=":7"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI=":70"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI=":72"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI=":74"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI=":76"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI=":77"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI=":78"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI=":80"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI=":81"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI=":83"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI=":84"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI=":86"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI=":87"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI=":88"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI=":89"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI=":90"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI=":91"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI=":93"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI=":94"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI=":96"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI=":97"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI=":98"/>
+    </Declaration>
+    <Declaration>
         <AnnotationProperty IRI="http://purl.obolibrary.org/obo/IAO_0000115"/>
     </Declaration>
     <Declaration>
@@ -1290,6 +1773,122 @@
     <Declaration>
         <AnnotationProperty IRI="http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym"/>
     </Declaration>
+    <EquivalentClasses>
+        <Class IRI="http://purl.obolibrary.org/obo/OBI_0001169"/>
+        <Class IRI="#ADNI_00000448"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://purl.obolibrary.org/obo/OGMS_0000073"/>
+        <Class IRI="#ADNI_00000459"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://purl.obolibrary.org/obo/OGMS_0000073"/>
+        <Class IRI="#ADNI_00000463"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://purl.obolibrary.org/obo/OMRSE_00000205"/>
+        <Class IRI="#ADNI_00000465"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="http://purl.obolibrary.org/obo/OMRSE_00000213"/>
+        <Class IRI="#ADNI_00000470"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#ADNI_00000264"/>
+        <Class IRI="#ADNI_00000469"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#ADNI_00000265"/>
+        <Class IRI="#ADNI_00000461"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#ADNI_00000266"/>
+        <Class IRI="#ADNI_00000450"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#ADNI_00000267"/>
+        <Class IRI="#ADNI_00000449"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#ADNI_00000267"/>
+        <Class IRI="#ADNI_00000452"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#ADNI_00000268"/>
+        <Class IRI="#ADNI_00000453"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#ADNI_00000274"/>
+        <Class IRI="#ADNI_00000454"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#ADNI_00000274"/>
+        <Class IRI="#ADNI_00000468"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#ADNI_00000332"/>
+        <Class IRI="#ADNI_00000458"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#ADNI_00000333"/>
+        <Class IRI="#ADNI_00000446"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#ADNI_00000335"/>
+        <Class IRI="#ADNI_00000445"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#ADNI_00000366"/>
+        <Class IRI="#ADNI_00000457"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#ADNI_00000367"/>
+        <Class IRI="#ADNI_00000464"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#ADNI_00000368"/>
+        <Class IRI="#ADNI_00000466"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#ADNI_00000372"/>
+        <Class IRI="#ADNI_00000447"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#ADNI_00000385"/>
+        <Class IRI="#ADNI_00000456"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#ADNI_00000443"/>
+        <Class IRI="#ADNI_00000462"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#ADNI_00000444"/>
+        <Class IRI="_v1#ADNI_000028"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#ADNI_00000451"/>
+        <Class IRI="_v1#ADNI_000024"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#ADNI_00000455"/>
+        <Class IRI="_v1#IAO_0000115"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#ADNI_00000460"/>
+        <Class IRI="_v1#ADNI_000024"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#ADNI_00000467"/>
+        <Class IRI="_v1#ADNI_000007"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#ADNI_00000471"/>
+        <Class IRI="_v1#ADNI_000012"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#ADNI_00000472"/>
+        <Class IRI="http://www.semanticweb.org/lmwis/ontologies/2024/0/ADNI_mini#ADNI_00000277"/>
+    </EquivalentClasses>
     <EquivalentClasses>
         <Class IRI="_v1#ADNI_000001"/>
         <ObjectIntersectionOf>
@@ -1563,6 +2162,18 @@
     <SubClassOf>
         <Class IRI="http://purl.obolibrary.org/obo/OBI_0000984"/>
         <Class IRI="http://purl.obolibrary.org/obo/IAO_0000109"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/OBI_0001169"/>
+        <Class IRI="http://purl.obolibrary.org/obo/IAO_0000416"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/OBI_0001305"/>
+        <Class IRI="http://purl.obolibrary.org/obo/OBI_0001404"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://purl.obolibrary.org/obo/OBI_0001404"/>
+        <Class IRI="http://purl.obolibrary.org/obo/IAO_0000027"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="http://purl.obolibrary.org/obo/OBI_0001879"/>
@@ -2106,7 +2717,7 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#ADNI_00000332"/>
-        <Class IRI="http://purl.obolibrary.org/obo/IAO_0000030"/>
+        <Class IRI="http://purl.obolibrary.org/obo/IAO_0000416"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#ADNI_00000333"/>
@@ -2122,6 +2733,30 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#ADNI_00000366"/>
+        <Class IRI="http://purl.obolibrary.org/obo/IAO_0000028"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ADNI_00000367"/>
+        <Class IRI="_v1#ADNI_000012"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ADNI_00000368"/>
+        <Class IRI="#ADNI_00000267"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ADNI_00000372"/>
+        <Class IRI="http://purl.obolibrary.org/obo/OBI_0001305"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ADNI_00000385"/>
+        <Class IRI="_v1#ADNI_000030"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ADNI_00000386"/>
+        <Class IRI="#ADNI_00000385"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ADNI_00000443"/>
         <Class IRI="http://purl.obolibrary.org/obo/IAO_0000028"/>
     </SubClassOf>
     <SubClassOf>
@@ -2852,6 +3487,498 @@
         <Class IRI="http://www.semanticweb.org/lmwis/ontologies/2024/0/ADNI_mini#ADNI_00000279"/>
         <Class IRI="#ADNI_00000266"/>
     </SubClassOf>
+    <ClassAssertion>
+        <Class IRI="_v1#IAO_0000115"/>
+        <NamedIndividual IRI=":10"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="_v1#IAO_0000115"/>
+        <NamedIndividual IRI=":101"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="_v1#IAO_0000115"/>
+        <NamedIndividual IRI=":102"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="_v1#IAO_0000115"/>
+        <NamedIndividual IRI=":103"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="_v1#IAO_0000115"/>
+        <NamedIndividual IRI=":106"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="_v1#IAO_0000115"/>
+        <NamedIndividual IRI=":107"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="_v1#IAO_0000115"/>
+        <NamedIndividual IRI=":108"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="_v1#IAO_0000115"/>
+        <NamedIndividual IRI=":109"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="_v1#IAO_0000115"/>
+        <NamedIndividual IRI=":110"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="_v1#IAO_0000115"/>
+        <NamedIndividual IRI=":111"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="_v1#IAO_0000115"/>
+        <NamedIndividual IRI=":112"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="_v1#IAO_0000115"/>
+        <NamedIndividual IRI=":113"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="_v1#IAO_0000115"/>
+        <NamedIndividual IRI=":116"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="_v1#IAO_0000115"/>
+        <NamedIndividual IRI=":118"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="_v1#IAO_0000115"/>
+        <NamedIndividual IRI=":120"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="_v1#IAO_0000115"/>
+        <NamedIndividual IRI=":123"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="_v1#IAO_0000115"/>
+        <NamedIndividual IRI=":125"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="_v1#IAO_0000115"/>
+        <NamedIndividual IRI=":126"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="_v1#IAO_0000115"/>
+        <NamedIndividual IRI=":128"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="_v1#IAO_0000115"/>
+        <NamedIndividual IRI=":129"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="_v1#IAO_0000115"/>
+        <NamedIndividual IRI=":130"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="_v1#IAO_0000115"/>
+        <NamedIndividual IRI=":138"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="_v1#IAO_0000115"/>
+        <NamedIndividual IRI=":139"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="_v1#IAO_0000115"/>
+        <NamedIndividual IRI=":14"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="_v1#IAO_0000115"/>
+        <NamedIndividual IRI=":141"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="_v1#IAO_0000115"/>
+        <NamedIndividual IRI=":142"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="_v1#IAO_0000115"/>
+        <NamedIndividual IRI=":147"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="_v1#IAO_0000115"/>
+        <NamedIndividual IRI=":15"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="_v1#IAO_0000115"/>
+        <NamedIndividual IRI=":150"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="_v1#IAO_0000115"/>
+        <NamedIndividual IRI=":155"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="_v1#IAO_0000115"/>
+        <NamedIndividual IRI=":156"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="_v1#IAO_0000115"/>
+        <NamedIndividual IRI=":159"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="_v1#IAO_0000115"/>
+        <NamedIndividual IRI=":16"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="_v1#IAO_0000115"/>
+        <NamedIndividual IRI=":160"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="_v1#IAO_0000115"/>
+        <NamedIndividual IRI=":161"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="_v1#IAO_0000115"/>
+        <NamedIndividual IRI=":162"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="_v1#IAO_0000115"/>
+        <NamedIndividual IRI=":166"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="_v1#IAO_0000115"/>
+        <NamedIndividual IRI=":168"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="_v1#IAO_0000115"/>
+        <NamedIndividual IRI=":169"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="_v1#IAO_0000115"/>
+        <NamedIndividual IRI=":171"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="_v1#IAO_0000115"/>
+        <NamedIndividual IRI=":173"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="_v1#IAO_0000115"/>
+        <NamedIndividual IRI=":176"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="_v1#IAO_0000115"/>
+        <NamedIndividual IRI=":177"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="_v1#IAO_0000115"/>
+        <NamedIndividual IRI=":178"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="_v1#IAO_0000115"/>
+        <NamedIndividual IRI=":179"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="_v1#IAO_0000115"/>
+        <NamedIndividual IRI=":182"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="_v1#IAO_0000115"/>
+        <NamedIndividual IRI=":183"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="_v1#IAO_0000115"/>
+        <NamedIndividual IRI=":184"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="_v1#IAO_0000115"/>
+        <NamedIndividual IRI=":186"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="_v1#IAO_0000115"/>
+        <NamedIndividual IRI=":187"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="_v1#IAO_0000115"/>
+        <NamedIndividual IRI=":188"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="_v1#IAO_0000115"/>
+        <NamedIndividual IRI=":190"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="_v1#IAO_0000115"/>
+        <NamedIndividual IRI=":194"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="_v1#IAO_0000115"/>
+        <NamedIndividual IRI=":195"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="_v1#IAO_0000115"/>
+        <NamedIndividual IRI=":196"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="_v1#IAO_0000115"/>
+        <NamedIndividual IRI=":2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="_v1#IAO_0000115"/>
+        <NamedIndividual IRI=":200"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="_v1#IAO_0000115"/>
+        <NamedIndividual IRI=":204"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="_v1#IAO_0000115"/>
+        <NamedIndividual IRI=":205"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="_v1#IAO_0000115"/>
+        <NamedIndividual IRI=":21"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="_v1#IAO_0000115"/>
+        <NamedIndividual IRI=":210"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="_v1#IAO_0000115"/>
+        <NamedIndividual IRI=":23"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="_v1#IAO_0000115"/>
+        <NamedIndividual IRI=":29"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="_v1#IAO_0000115"/>
+        <NamedIndividual IRI=":3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="_v1#IAO_0000115"/>
+        <NamedIndividual IRI=":33"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="_v1#IAO_0000115"/>
+        <NamedIndividual IRI=":35"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="_v1#IAO_0000115"/>
+        <NamedIndividual IRI=":38"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="_v1#IAO_0000115"/>
+        <NamedIndividual IRI=":4"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="_v1#IAO_0000115"/>
+        <NamedIndividual IRI=":40"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="_v1#IAO_0000115"/>
+        <NamedIndividual IRI=":41"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="_v1#IAO_0000115"/>
+        <NamedIndividual IRI=":42"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="_v1#IAO_0000115"/>
+        <NamedIndividual IRI=":43"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="_v1#IAO_0000115"/>
+        <NamedIndividual IRI=":44"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="_v1#IAO_0000115"/>
+        <NamedIndividual IRI=":45"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="_v1#IAO_0000115"/>
+        <NamedIndividual IRI=":47"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="_v1#IAO_0000115"/>
+        <NamedIndividual IRI=":5"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="_v1#IAO_0000115"/>
+        <NamedIndividual IRI=":50"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="_v1#IAO_0000115"/>
+        <NamedIndividual IRI=":51"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="_v1#IAO_0000115"/>
+        <NamedIndividual IRI=":5267"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="_v1#IAO_0000115"/>
+        <NamedIndividual IRI=":5269"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="_v1#IAO_0000115"/>
+        <NamedIndividual IRI=":5273"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="_v1#IAO_0000115"/>
+        <NamedIndividual IRI=":5275"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="_v1#IAO_0000115"/>
+        <NamedIndividual IRI=":5277"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="_v1#IAO_0000115"/>
+        <NamedIndividual IRI=":5278"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="_v1#IAO_0000115"/>
+        <NamedIndividual IRI=":5279"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="_v1#IAO_0000115"/>
+        <NamedIndividual IRI=":5280"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="_v1#IAO_0000115"/>
+        <NamedIndividual IRI=":5282"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="_v1#IAO_0000115"/>
+        <NamedIndividual IRI=":53"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="_v1#IAO_0000115"/>
+        <NamedIndividual IRI=":54"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="_v1#IAO_0000115"/>
+        <NamedIndividual IRI=":55"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="_v1#IAO_0000115"/>
+        <NamedIndividual IRI=":56"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="_v1#IAO_0000115"/>
+        <NamedIndividual IRI=":57"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="_v1#IAO_0000115"/>
+        <NamedIndividual IRI=":58"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="_v1#IAO_0000115"/>
+        <NamedIndividual IRI=":59"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="_v1#IAO_0000115"/>
+        <NamedIndividual IRI=":6"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="_v1#IAO_0000115"/>
+        <NamedIndividual IRI=":60"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="_v1#IAO_0000115"/>
+        <NamedIndividual IRI=":61"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="_v1#IAO_0000115"/>
+        <NamedIndividual IRI=":66"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="_v1#IAO_0000115"/>
+        <NamedIndividual IRI=":67"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="_v1#IAO_0000115"/>
+        <NamedIndividual IRI=":68"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="_v1#IAO_0000115"/>
+        <NamedIndividual IRI=":69"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="_v1#IAO_0000115"/>
+        <NamedIndividual IRI=":7"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="_v1#IAO_0000115"/>
+        <NamedIndividual IRI=":70"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="_v1#IAO_0000115"/>
+        <NamedIndividual IRI=":72"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="_v1#IAO_0000115"/>
+        <NamedIndividual IRI=":74"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="_v1#IAO_0000115"/>
+        <NamedIndividual IRI=":76"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="_v1#IAO_0000115"/>
+        <NamedIndividual IRI=":77"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="_v1#IAO_0000115"/>
+        <NamedIndividual IRI=":78"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="_v1#IAO_0000115"/>
+        <NamedIndividual IRI=":80"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="_v1#IAO_0000115"/>
+        <NamedIndividual IRI=":81"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="_v1#IAO_0000115"/>
+        <NamedIndividual IRI=":83"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="_v1#IAO_0000115"/>
+        <NamedIndividual IRI=":84"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="_v1#IAO_0000115"/>
+        <NamedIndividual IRI=":86"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="_v1#IAO_0000115"/>
+        <NamedIndividual IRI=":87"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="_v1#IAO_0000115"/>
+        <NamedIndividual IRI=":88"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="_v1#IAO_0000115"/>
+        <NamedIndividual IRI=":89"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="_v1#IAO_0000115"/>
+        <NamedIndividual IRI=":90"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="_v1#IAO_0000115"/>
+        <NamedIndividual IRI=":91"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="_v1#IAO_0000115"/>
+        <NamedIndividual IRI=":93"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="_v1#IAO_0000115"/>
+        <NamedIndividual IRI=":94"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="_v1#IAO_0000115"/>
+        <NamedIndividual IRI=":96"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="_v1#IAO_0000115"/>
+        <NamedIndividual IRI=":97"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="_v1#IAO_0000115"/>
+        <NamedIndividual IRI=":98"/>
+    </ClassAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>http://purl.obolibrary.org/obo/CHEBI_15356</IRI>
@@ -3161,6 +4288,21 @@
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>http://purl.obolibrary.org/obo/OBI_0000984</IRI>
         <Literal>dose</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/OBI_0001169</IRI>
+        <Literal>age since birth measurement datum</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/OBI_0001305</IRI>
+        <Literal>genotype information</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://purl.obolibrary.org/obo/OBI_0001404</IRI>
+        <Literal>genetic characteristics information</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -4379,7 +5521,7 @@ Ethnicity is separate from but related to racial identity. It refers more to ide
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#ADNI_00000332</IRI>
-        <Literal xml:lang="en">years of education information content entity</Literal>
+        <Literal xml:lang="en">years of education time measurement datum</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -4400,6 +5542,36 @@ Ethnicity is separate from but related to racial identity. It refers more to ide
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>#ADNI_00000366</IRI>
         <Literal xml:lang="en">clinical study center identifier</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#ADNI_00000367</IRI>
+        <Literal xml:lang="en">baseline tau mass concentration</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#ADNI_00000368</IRI>
+        <Literal xml:lang="en">baseline phosphorylated tau mass concentration</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#ADNI_00000372</IRI>
+        <Literal xml:lang="en">APOE4 genotype information</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#ADNI_00000385</IRI>
+        <Literal xml:lang="en">florbetaben standard uptake value ratio</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#ADNI_00000386</IRI>
+        <Literal xml:lang="en">baseline florbetaben standard uptake value ratio</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#ADNI_00000443</IRI>
+        <Literal xml:lang="en">visit code</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -6444,7 +7616,7 @@ Ethnicity is separate from but related to racial identity. It refers more to ide
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
         <IRI>http://www.semanticweb.org/lmwis/ontologies/2024/0/ADNI_mini#ADNI_00000277</IRI>
-        <Literal>baseline fluordeoxyglucose standard uptake value ratio</Literal>
+        <Literal>baseline fluorodeoxyglucose standard uptake value ratio</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
