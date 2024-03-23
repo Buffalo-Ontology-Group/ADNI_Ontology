@@ -1,0 +1,73 @@
+[PrefixDeclaration]
+:		urn:webprotege:ontology:a0a2590b-8df9-4aa2-a265-cb07f24f5bc0#
+owl:		http://www.w3.org/2002/07/owl#
+rdf:		http://www.w3.org/1999/02/22-rdf-syntax-ns#
+xml:		http://www.w3.org/XML/1998/namespace
+xsd:		http://www.w3.org/2001/XMLSchema#
+adni:		http://www.semanticweb.org/lmwis/ontologies/2023/10/ADNI_Ontology/
+obda:		https://w3id.org/obda/vocabulary#
+rdfs:		http://www.w3.org/2000/01/rdf-schema#
+webprotege:	http://webprotege.stanford.edu/
+
+[MappingDeclaration] @collection [[
+mappingId	MAPID-3b141b7731a74fe0b50f6ade6eb0ba90
+target		:adni/{COLPROT} rdfs:type :collectionProtocolInformationContentEntity . 
+source		SELECT RID, COLPROT FROM adni_march18
+
+mappingId	MAPID-eee801199ec546ebb25bdd3951eba620
+target		:adni/{DX_bl} rdfs:type :baselineDiagnosis . 
+source		SELECT RID, DX_bl FROM adni_march18
+
+mappingId	MAPID-f0cb0ec3e6734b1db84cd60495442ce2
+target		:adni/{AGE} rdfs:type :ageMeasurementDatum . 
+source		SELECT RID,AGE FROM adni_march18
+
+mappingId	MAPID-b5d0f75d0d2340f69b46ea896d1ba5a0
+target		:adni/{PTGENDER} rdfs:type :genderInformationContentEntity . 
+source		SELECT RID, PTGENDER FROM adni_march18
+
+mappingId	MAPID-caa2b92ef48b4c4389413fba2fdca311
+target		:adni/{PTEDUCAT} rdfs:type :yearsOfEducation . 
+source		SELECT RID, PTEDUCAT FROM adni_march18
+
+mappingId	MAPID-1849373fe3fa47219b25c1367f8eb1d7
+target		:adni/{PTETHCAT} rdfs:type :ethnicityInformationContentEntity . 
+source		SELECT RID,PTETHCAT FROM adni_march18
+
+mappingId	MAPID-d94d049d8c8e48268367139c00fc4217
+target		:adni/{PTRACCAT} rdfs:type :racialCategoryInformationContentEntity . 
+source		SELECT RID,PTRACCAT FROM adni_march18
+
+mappingId	MAPID-fa5034ec0b974d7992a3b7601c34f6b0
+target		:adni/{PTMARRY} rdfs:type :maritalStatusInformationContentEntity . 
+source		SELECT RID,PTMARRY FROM adni_march18
+
+mappingId	MAPID-3a8c85501133498cbe4a2ff387c0366b
+target		:adni/{APOE4} rdfs:type :APOEGenotype . 
+source		SELECT RID,APOE4 FROM adni_march18
+
+mappingId	MAPID-7b656be805f84837a61e8cb25fb1903e
+target		:adni/{CDRSB_bl} rdfs:type :baselineCognitiveFunctionScalarScoreFromCompositeInputs . 
+source		SELECT RID,CDRSB_bl FROM adni_march18
+
+mappingId	MAPID-2916a5f78bf945c99c6830fbd10d4f75
+target		:adni/{ABETA_bl} rdfs:type :baselineBeta-AmyloidMassConcentration . 
+source		SELECT RID,ABETA_bl FROM adni_march18
+
+mappingId	MAPID-6f264df562e04b368266fbea5be74211
+target		:adni/{TAU_bl} rdfs:type :baselineTauMassConcentration . 
+source		SELECT RID,TAU_bl FROM adni_march18
+
+mappingId	MAPID-e9c0cd54feac47c396d815e7209d9197
+target		:adni/{PTAU_bl} rdfs:type :baselinePhosphorylatedTauMassConcentration . 
+source		SELECT RID,PTAU_bl FROM adni_march18
+
+mappingId	MAPID-759ae6dda4924b74a06b3549c3a97a9f
+target		:adni/{FDG_bl} rdfs:type :baselineFluorodeoxyglucoseStandardUptakeValueRatio . 
+source		SELECT RID,FDG_bl FROM adni_march18
+
+mappingId	MAPID-87eb4ec5c56840efa129c41a5e613379
+target		:adni/{RID} rdfs:type :humanBeing . 
+source		SELECT RID FROM adni_march18
+]]
+
